@@ -21,7 +21,8 @@ class HazeDataset(Dataset):
     """
     def __init__(self, root, patch_size=256, is_train=True, augment=True):
         self.hazy_dir  = os.path.join(root, 'hazy')
-        self.clear_dir = os.path.join(root, 'clear')
+        # RESIDE-6K는 'GT', 기존은 'clear'
+        self.clear_dir = os.path.join(root, 'GT') if os.path.exists(os.path.join(root, 'GT')) else os.path.join(root, 'clear')
         self.patch_size = patch_size
         self.is_train   = is_train
         self.augment    = augment and is_train
@@ -33,8 +34,14 @@ class HazeDataset(Dataset):
 
     def __getitem__(self, idx):
         fname = self.hazy_files[idx]
-        # RESIDE ITS: hazy 파일명 = {id}_{beta}_{A}.png → clear = {id}.png
-        clear_name = fname.split('_')[0] + '.png'
+        # RESIDE-6K: hazy 파일명 = {id}_{idx}.png or {id}_{beta}_{A}.jpg
+        # GT 파일명 = {id}.png or {id}.jpg
+        stem = fname.split('_')[0]
+        # 확장자 후보
+        for ext in ['.png', '.jpg', '.jpeg']:
+            clear_name = stem + ext
+            if os.path.exists(os.path.join(self.clear_dir, clear_name)):
+                break
 
         hazy  = Image.open(os.path.join(self.hazy_dir,  fname)).convert('RGB')
         clear = Image.open(os.path.join(self.clear_dir, clear_name)).convert('RGB')

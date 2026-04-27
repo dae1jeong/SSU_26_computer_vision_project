@@ -8,8 +8,8 @@ import itertools
 import csv
 
 BASE = {
-    "train_data":    "/home/user/data/RESIDE/train",
-    "val_data":      "/home/user/data/RESIDE/test",
+    "train_data":    "/home/user/data/RESIDE/RESIDE-6K/train",
+    "val_data":      "/home/user/data/RESIDE/RESIDE-6K/test",
     "exp_root":      "/home/user/experiments",
     "epochs":        100,
     "val_freq":      5,
