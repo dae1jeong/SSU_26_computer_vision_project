@@ -34,14 +34,18 @@ class HazeDataset(Dataset):
 
     def __getitem__(self, idx):
         fname = self.hazy_files[idx]
-        # RESIDE-6K: hazy 파일명 = {id}_{idx}.png or {id}_{beta}_{A}.jpg
-        # GT 파일명 = {id}.png or {id}.jpg
-        stem = fname.split('_')[0]
-        # 확장자 후보
-        for ext in ['.png', '.jpg', '.jpeg']:
-            clear_name = stem + ext
-            if os.path.exists(os.path.join(self.clear_dir, clear_name)):
-                break
+        # RESIDE-6K: hazy/GT 파일명 동일 (1.jpg, 2.jpg ...)
+        # RESIDE ITS: hazy={id}_{beta}_{A}.png → GT={id}.png
+        clear_name = fname  # 기본: 같은 파일명
+        if not os.path.exists(os.path.join(self.clear_dir, clear_name)):
+            # ITS 형식: id_beta_A.ext → id.ext
+            stem, ext = os.path.splitext(fname)
+            base_id = stem.split('_')[0]
+            for e in [ext, '.png', '.jpg']:
+                candidate = base_id + e
+                if os.path.exists(os.path.join(self.clear_dir, candidate)):
+                    clear_name = candidate
+                    break
 
         hazy  = Image.open(os.path.join(self.hazy_dir,  fname)).convert('RGB')
         clear = Image.open(os.path.join(self.clear_dir, clear_name)).convert('RGB')
