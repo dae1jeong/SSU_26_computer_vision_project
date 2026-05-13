@@ -1,0 +1,20 @@
+{
+  "train_data": "/home/user/data/RESIDE/RESIDE-6K/train",
+  "val_data": "/home/user/data/RESIDE/RESIDE-6K/test",
+  "exp_root": "/home/user/experiments",
+  "epochs": 100,
+  "val_freq": 5,
+  "weight_decay": 0.02,
+  "early_stop_patience": 15,
+  "model_size": "L",
+  "architecture": "baseline",
+  "patch_size": 128,
+  "lr": 0.0001,
+  "batch_size": 8,
+  "loss_l1": 1.0,
+  "loss_perceptual": 0.1,
+  "loss_ssim": 0.2,
+  "loss_freq": 0.05,
+  "loss_name": "L1+Perc+SSIM+Freq",
+  "exp_name": "GA_0075_L_baseline_p128_lr1e-04_L1PercSSIMFreq"
+}

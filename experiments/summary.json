@@ -1,0 +1,1633 @@
+[
+  {
+    "exp": "GA_0000_T_baseline_p128_lr1e-04_L1",
+    "best_psnr": 26.001975688934326,
+    "time_min": 57.2,
+    "config": "/home/user/computer_vision/configs/GA_0000_T_baseline_p128_lr1e-04_L1.json"
+  },
+  {
+    "exp": "GA_0001_T_baseline_p128_lr1e-04_L1Perc",
+    "best_psnr": 26.090098745822907,
+    "time_min": 64.7,
+    "config": "/home/user/computer_vision/configs/GA_0001_T_baseline_p128_lr1e-04_L1Perc.json"
+  },
+  {
+    "exp": "GA_0002_T_baseline_p128_lr1e-04_L1SSIM",
+    "best_psnr": 20.52819895207882,
+    "time_min": 50.8,
+    "config": "/home/user/computer_vision/configs/GA_0002_T_baseline_p128_lr1e-04_L1SSIM.json"
+  },
+  {
+    "exp": "GA_0003_T_baseline_p128_lr1e-04_L1PercSSIMFreq",
+    "best_psnr": 24.313295118808746,
+    "time_min": 62.2,
+    "config": "/home/user/computer_vision/configs/GA_0003_T_baseline_p128_lr1e-04_L1PercSSIMFreq.json"
+  },
+  {
+    "exp": "GA_0004_T_baseline_p128_lr2e-04_L1",
+    "best_psnr": 26.18057416319847,
+    "time_min": 57.1,
+    "config": "/home/user/computer_vision/configs/GA_0004_T_baseline_p128_lr2e-04_L1.json"
+  },
+  {
+    "exp": "GA_0004_T_baseline_p128_lr2e-04_L1",
+    "best_psnr": -1,
+    "error": "'ascii' codec can't encode character '\\u2705' in position 0: ordinal not in range(128)"
+  },
+  {
+    "exp": "GA_0005_T_baseline_p128_lr2e-04_L1Perc",
+    "best_psnr": 26.01525611758232,
+    "time_min": 59.5,
+    "config": "/home/user/computer_vision/configs/GA_0005_T_baseline_p128_lr2e-04_L1Perc.json"
+  },
+  {
+    "exp": "GA_0006_T_baseline_p128_lr2e-04_L1SSIM",
+    "best_psnr": 20.159261490106584,
+    "time_min": 59.6,
+    "config": "/home/user/computer_vision/configs/GA_0006_T_baseline_p128_lr2e-04_L1SSIM.json"
+  },
+  {
+    "exp": "GA_0007_T_baseline_p128_lr2e-04_L1PercSSIMFreq",
+    "best_psnr": 24.09395179271698,
+    "time_min": 62.2,
+    "config": "/home/user/computer_vision/configs/GA_0007_T_baseline_p128_lr2e-04_L1PercSSIMFreq.json"
+  },
+  {
+    "exp": "GA_0008_T_baseline_p128_lr4e-04_L1",
+    "best_psnr": 26.123825548887254,
+    "time_min": 57.1,
+    "config": "/home/user/computer_vision/configs/GA_0008_T_baseline_p128_lr4e-04_L1.json"
+  },
+  {
+    "exp": "GA_0009_T_baseline_p128_lr4e-04_L1Perc",
+    "best_psnr": 26.3561217713356,
+    "time_min": 59.4,
+    "config": "/home/user/computer_vision/configs/GA_0009_T_baseline_p128_lr4e-04_L1Perc.json"
+  },
+  {
+    "exp": "GA_0009_T_baseline_p128_lr4e-04_L1Perc",
+    "best_psnr": -1,
+    "error": "'ascii' codec can't encode character '\\u2705' in position 0: ordinal not in range(128)"
+  },
+  {
+    "exp": "GA_0010_T_baseline_p128_lr4e-04_L1SSIM",
+    "best_psnr": 20.491857031583788,
+    "time_min": 46.9,
+    "config": "/home/user/computer_vision/configs/GA_0010_T_baseline_p128_lr4e-04_L1SSIM.json"
+  },
+  {
+    "exp": "GA_0011_T_baseline_p128_lr4e-04_L1PercSSIMFreq",
+    "best_psnr": 21.762782295942305,
+    "time_min": 59.1,
+    "config": "/home/user/computer_vision/configs/GA_0011_T_baseline_p128_lr4e-04_L1PercSSIMFreq.json"
+  },
+  {
+    "exp": "GA_0012_T_baseline_p256_lr1e-04_L1",
+    "best_psnr": 27.41424449801445,
+    "time_min": 210.4,
+    "config": "/home/user/computer_vision/configs/GA_0012_T_baseline_p256_lr1e-04_L1.json"
+  },
+  {
+    "exp": "GA_0013_T_baseline_p256_lr1e-04_L1Perc",
+    "best_psnr": 27.68637575507164,
+    "time_min": 218.9,
+    "config": "/home/user/computer_vision/configs/GA_0013_T_baseline_p256_lr1e-04_L1Perc.json"
+  },
+  {
+    "exp": "GA_0014_T_baseline_p256_lr1e-04_L1SSIM",
+    "best_psnr": 25.444755227565764,
+    "time_min": 218.1,
+    "config": "/home/user/computer_vision/configs/GA_0014_T_baseline_p256_lr1e-04_L1SSIM.json"
+  },
+  {
+    "exp": "GA_0014_T_baseline_p256_lr1e-04_L1SSIM",
+    "best_psnr": -1,
+    "error": "'ascii' codec can't encode character '\\u2705' in position 0: ordinal not in range(128)"
+  },
+  {
+    "exp": "GA_0015_T_baseline_p256_lr1e-04_L1PercSSIMFreq",
+    "best_psnr": 25.575359418392182,
+    "time_min": 227.4,
+    "config": "/home/user/computer_vision/configs/GA_0015_T_baseline_p256_lr1e-04_L1PercSSIMFreq.json"
+  },
+  {
+    "exp": "GA_0016_T_baseline_p256_lr2e-04_L1",
+    "best_psnr": 27.437648980617524,
+    "time_min": 210.4,
+    "config": "/home/user/computer_vision/configs/GA_0016_T_baseline_p256_lr2e-04_L1.json"
+  },
+  {
+    "exp": "GA_0017_T_baseline_p256_lr2e-04_L1Perc",
+    "best_psnr": 27.84891132116318,
+    "time_min": 218.9,
+    "config": "/home/user/computer_vision/configs/GA_0017_T_baseline_p256_lr2e-04_L1Perc.json"
+  },
+  {
+    "exp": "GA_0018_T_baseline_p256_lr2e-04_L1SSIM",
+    "best_psnr": 16.719350126981734,
+    "time_min": 205.9,
+    "config": "/home/user/computer_vision/configs/GA_0018_T_baseline_p256_lr2e-04_L1SSIM.json"
+  },
+  {
+    "exp": "GA_0019_T_baseline_p256_lr2e-04_L1PercSSIMFreq",
+    "best_psnr": 19.52045853972435,
+    "time_min": 192.1,
+    "config": "/home/user/computer_vision/configs/GA_0019_T_baseline_p256_lr2e-04_L1PercSSIMFreq.json"
+  },
+  {
+    "exp": "GA_0019_T_baseline_p256_lr2e-04_L1PercSSIMFreq",
+    "best_psnr": -1,
+    "error": "'ascii' codec can't encode character '\\u2705' in position 0: ordinal not in range(128)"
+  },
+  {
+    "exp": "GA_0020_T_baseline_p256_lr4e-04_L1",
+    "best_psnr": 27.802880133390428,
+    "time_min": 210.4,
+    "config": "/home/user/computer_vision/configs/GA_0020_T_baseline_p256_lr4e-04_L1.json"
+  },
+  {
+    "exp": "GA_0021_T_baseline_p256_lr4e-04_L1Perc",
+    "best_psnr": 27.727517424821855,
+    "time_min": 218.9,
+    "config": "/home/user/computer_vision/configs/GA_0021_T_baseline_p256_lr4e-04_L1Perc.json"
+  },
+  {
+    "exp": "GA_0022_T_baseline_p256_lr4e-04_L1SSIM",
+    "best_psnr": 19.112351313233376,
+    "time_min": 173.3,
+    "config": "/home/user/computer_vision/configs/GA_0022_T_baseline_p256_lr4e-04_L1SSIM.json"
+  },
+  {
+    "exp": "GA_0023_T_baseline_p256_lr4e-04_L1PercSSIMFreq",
+    "best_psnr": 22.48257400751114,
+    "time_min": 203.7,
+    "config": "/home/user/computer_vision/configs/GA_0023_T_baseline_p256_lr4e-04_L1PercSSIMFreq.json"
+  },
+  {
+    "exp": "GA_0024_S_baseline_p128_lr1e-04_L1",
+    "best_psnr": 26.925049763917922,
+    "time_min": 64.5,
+    "config": "/home/user/computer_vision/configs/GA_0024_S_baseline_p128_lr1e-04_L1.json"
+  },
+  {
+    "exp": "GA_0024_S_baseline_p128_lr1e-04_L1",
+    "best_psnr": -1,
+    "error": "'ascii' codec can't encode character '\\u2705' in position 0: ordinal not in range(128)"
+  },
+  {
+    "exp": "GA_0025_S_baseline_p128_lr1e-04_L1Perc",
+    "best_psnr": 26.811887409687042,
+    "time_min": 66.8,
+    "config": "/home/user/computer_vision/configs/GA_0025_S_baseline_p128_lr1e-04_L1Perc.json"
+  },
+  {
+    "exp": "GA_0026_S_baseline_p128_lr1e-04_L1SSIM",
+    "best_psnr": 24.183327274322508,
+    "time_min": 67.2,
+    "config": "/home/user/computer_vision/configs/GA_0026_S_baseline_p128_lr1e-04_L1SSIM.json"
+  },
+  {
+    "exp": "GA_0027_S_baseline_p128_lr1e-04_L1PercSSIMFreq",
+    "best_psnr": 24.656639360189438,
+    "time_min": 69.9,
+    "config": "/home/user/computer_vision/configs/GA_0027_S_baseline_p128_lr1e-04_L1PercSSIMFreq.json"
+  },
+  {
+    "exp": "GA_0028_S_baseline_p128_lr2e-04_L1",
+    "best_psnr": 26.859196556806566,
+    "time_min": 64.5,
+    "config": "/home/user/computer_vision/configs/GA_0028_S_baseline_p128_lr2e-04_L1.json"
+  },
+  {
+    "exp": "GA_0029_S_baseline_p128_lr2e-04_L1Perc",
+    "best_psnr": 26.820879228115082,
+    "time_min": 66.7,
+    "config": "/home/user/computer_vision/configs/GA_0029_S_baseline_p128_lr2e-04_L1Perc.json"
+  },
+  {
+    "exp": "GA_0029_S_baseline_p128_lr2e-04_L1Perc",
+    "best_psnr": -1,
+    "error": "'ascii' codec can't encode character '\\u2705' in position 0: ordinal not in range(128)"
+  },
+  {
+    "exp": "GA_0030_S_baseline_p128_lr2e-04_L1SSIM",
+    "best_psnr": 21.126051356196403,
+    "time_min": 59.9,
+    "config": "/home/user/computer_vision/configs/GA_0030_S_baseline_p128_lr2e-04_L1SSIM.json"
+  },
+  {
+    "exp": "GA_0031_S_baseline_p128_lr2e-04_L1PercSSIMFreq",
+    "best_psnr": 17.613220522999764,
+    "time_min": 69.9,
+    "config": "/home/user/computer_vision/configs/GA_0031_S_baseline_p128_lr2e-04_L1PercSSIMFreq.json"
+  },
+  {
+    "exp": "GA_0032_S_baseline_p128_lr4e-04_L1",
+    "best_psnr": 26.92626286864281,
+    "time_min": 64.4,
+    "config": "/home/user/computer_vision/configs/GA_0032_S_baseline_p128_lr4e-04_L1.json"
+  },
+  {
+    "exp": "GA_0033_S_baseline_p128_lr4e-04_L1Perc",
+    "best_psnr": 27.152496151924133,
+    "time_min": 66.8,
+    "config": "/home/user/computer_vision/configs/GA_0033_S_baseline_p128_lr4e-04_L1Perc.json"
+  },
+  {
+    "exp": "GA_0034_S_baseline_p128_lr4e-04_L1SSIM",
+    "best_psnr": 20.438821591734886,
+    "time_min": 67.3,
+    "config": "/home/user/computer_vision/configs/GA_0034_S_baseline_p128_lr4e-04_L1SSIM.json"
+  },
+  {
+    "exp": "GA_0034_S_baseline_p128_lr4e-04_L1SSIM",
+    "best_psnr": -1,
+    "error": "'ascii' codec can't encode character '\\u2705' in position 0: ordinal not in range(128)"
+  },
+  {
+    "exp": "GA_0035_S_baseline_p128_lr4e-04_L1PercSSIMFreq",
+    "best_psnr": 19.702092558145523,
+    "time_min": 62.9,
+    "config": "/home/user/computer_vision/configs/GA_0035_S_baseline_p128_lr4e-04_L1PercSSIMFreq.json"
+  },
+  {
+    "exp": "GA_0036_S_baseline_p256_lr1e-04_L1",
+    "best_psnr": 28.267636284828185,
+    "time_min": 233.7,
+    "config": "/home/user/computer_vision/configs/GA_0036_S_baseline_p256_lr1e-04_L1.json"
+  },
+  {
+    "exp": "GA_0037_S_baseline_p256_lr1e-04_L1Perc",
+    "best_psnr": 28.443520369529725,
+    "time_min": 242.3,
+    "config": "/home/user/computer_vision/configs/GA_0037_S_baseline_p256_lr1e-04_L1Perc.json"
+  },
+  {
+    "exp": "GA_0038_S_baseline_p256_lr1e-04_L1SSIM",
+    "best_psnr": 22.284779666662217,
+    "time_min": 241.8,
+    "config": "/home/user/computer_vision/configs/GA_0038_S_baseline_p256_lr1e-04_L1SSIM.json"
+  },
+  {
+    "exp": "GA_0039_S_baseline_p256_lr1e-04_L1PercSSIMFreq",
+    "best_psnr": 22.762194863557816,
+    "time_min": 213.5,
+    "config": "/home/user/computer_vision/configs/GA_0039_S_baseline_p256_lr1e-04_L1PercSSIMFreq.json"
+  },
+  {
+    "exp": "GA_0039_S_baseline_p256_lr1e-04_L1PercSSIMFreq",
+    "best_psnr": -1,
+    "error": "'ascii' codec can't encode character '\\u2705' in position 0: ordinal not in range(128)"
+  },
+  {
+    "exp": "GA_0040_S_baseline_p256_lr2e-04_L1",
+    "best_psnr": 28.52525673866272,
+    "time_min": 233.7,
+    "config": "/home/user/computer_vision/configs/GA_0040_S_baseline_p256_lr2e-04_L1.json"
+  },
+  {
+    "exp": "GA_0041_S_baseline_p256_lr2e-04_L1Perc",
+    "best_psnr": 28.648420128822327,
+    "time_min": 242.3,
+    "config": "/home/user/computer_vision/configs/GA_0041_S_baseline_p256_lr2e-04_L1Perc.json"
+  },
+  {
+    "exp": "GA_0042_S_baseline_p256_lr2e-04_L1SSIM",
+    "best_psnr": 20.570782301425933,
+    "time_min": 241.9,
+    "config": "/home/user/computer_vision/configs/GA_0042_S_baseline_p256_lr2e-04_L1SSIM.json"
+  },
+  {
+    "exp": "GA_0043_S_baseline_p256_lr2e-04_L1PercSSIMFreq",
+    "best_psnr": 20.603263576626777,
+    "time_min": 198.9,
+    "config": "/home/user/computer_vision/configs/GA_0043_S_baseline_p256_lr2e-04_L1PercSSIMFreq.json"
+  },
+  {
+    "exp": "GA_0044_S_baseline_p256_lr4e-04_L1",
+    "best_psnr": 28.73085950136185,
+    "time_min": 233.8,
+    "config": "/home/user/computer_vision/configs/GA_0044_S_baseline_p256_lr4e-04_L1.json"
+  },
+  {
+    "exp": "GA_0044_S_baseline_p256_lr4e-04_L1",
+    "best_psnr": -1,
+    "error": "'ascii' codec can't encode character '\\u2705' in position 0: ordinal not in range(128)"
+  },
+  {
+    "exp": "GA_0045_S_baseline_p256_lr4e-04_L1Perc",
+    "best_psnr": 29.130475841760635,
+    "time_min": 242.3,
+    "config": "/home/user/computer_vision/configs/GA_0045_S_baseline_p256_lr4e-04_L1Perc.json"
+  },
+  {
+    "exp": "GA_0046_S_baseline_p256_lr4e-04_L1SSIM",
+    "best_psnr": 21.251899347901343,
+    "time_min": 205.6,
+    "config": "/home/user/computer_vision/configs/GA_0046_S_baseline_p256_lr4e-04_L1SSIM.json"
+  },
+  {
+    "exp": "GA_0047_S_baseline_p256_lr4e-04_L1PercSSIMFreq",
+    "best_psnr": 20.266089800596237,
+    "time_min": 199.5,
+    "config": "/home/user/computer_vision/configs/GA_0047_S_baseline_p256_lr4e-04_L1PercSSIMFreq.json"
+  },
+  {
+    "exp": "GA_0048_B_baseline_p128_lr1e-04_L1",
+    "best_psnr": 27.050429548025132,
+    "time_min": 86.8,
+    "config": "/home/user/computer_vision/configs/GA_0048_B_baseline_p128_lr1e-04_L1.json"
+  },
+  {
+    "exp": "GA_0049_B_baseline_p128_lr1e-04_L1Perc",
+    "best_psnr": 26.932215523719787,
+    "time_min": 89.1,
+    "config": "/home/user/computer_vision/configs/GA_0049_B_baseline_p128_lr1e-04_L1Perc.json"
+  },
+  {
+    "exp": "GA_0049_B_baseline_p128_lr1e-04_L1Perc",
+    "best_psnr": -1,
+    "error": "'ascii' codec can't encode character '\\u2705' in position 0: ordinal not in range(128)"
+  },
+  {
+    "exp": "GA_0050_B_baseline_p128_lr1e-04_L1SSIM",
+    "best_psnr": 21.542339233160018,
+    "time_min": 89.9,
+    "config": "/home/user/computer_vision/configs/GA_0050_B_baseline_p128_lr1e-04_L1SSIM.json"
+  },
+  {
+    "exp": "GA_0051_B_baseline_p128_lr1e-04_L1PercSSIMFreq",
+    "best_psnr": 24.37781482696533,
+    "time_min": 92.7,
+    "config": "/home/user/computer_vision/configs/GA_0051_B_baseline_p128_lr1e-04_L1PercSSIMFreq.json"
+  },
+  {
+    "exp": "GA_0052_B_baseline_p128_lr2e-04_L1",
+    "best_psnr": 26.7633644592762,
+    "time_min": 86.8,
+    "config": "/home/user/computer_vision/configs/GA_0052_B_baseline_p128_lr2e-04_L1.json"
+  },
+  {
+    "exp": "GA_0053_B_baseline_p128_lr2e-04_L1Perc",
+    "best_psnr": 26.951822452545166,
+    "time_min": 89.1,
+    "config": "/home/user/computer_vision/configs/GA_0053_B_baseline_p128_lr2e-04_L1Perc.json"
+  },
+  {
+    "exp": "GA_0054_B_baseline_p128_lr2e-04_L1SSIM",
+    "best_psnr": 21.483544466495513,
+    "time_min": 89.9,
+    "config": "/home/user/computer_vision/configs/GA_0054_B_baseline_p128_lr2e-04_L1SSIM.json"
+  },
+  {
+    "exp": "GA_0054_B_baseline_p128_lr2e-04_L1SSIM",
+    "best_psnr": -1,
+    "error": "'ascii' codec can't encode character '\\u2705' in position 0: ordinal not in range(128)"
+  },
+  {
+    "exp": "GA_0055_B_baseline_p128_lr2e-04_L1PercSSIMFreq",
+    "best_psnr": 21.811406017541884,
+    "time_min": 92.7,
+    "config": "/home/user/computer_vision/configs/GA_0055_B_baseline_p128_lr2e-04_L1PercSSIMFreq.json"
+  },
+  {
+    "exp": "GA_0056_B_baseline_p128_lr4e-04_L1",
+    "best_psnr": 27.13446796774864,
+    "time_min": 86.8,
+    "config": "/home/user/computer_vision/configs/GA_0056_B_baseline_p128_lr4e-04_L1.json"
+  },
+  {
+    "exp": "GA_0057_B_baseline_p128_lr4e-04_L1Perc",
+    "best_psnr": 26.712035921812056,
+    "time_min": 89.1,
+    "config": "/home/user/computer_vision/configs/GA_0057_B_baseline_p128_lr4e-04_L1Perc.json"
+  },
+  {
+    "exp": "GA_0058_B_baseline_p128_lr4e-04_L1SSIM",
+    "best_psnr": 20.391469789743425,
+    "time_min": 71.9,
+    "config": "/home/user/computer_vision/configs/GA_0058_B_baseline_p128_lr4e-04_L1SSIM.json"
+  },
+  {
+    "exp": "GA_0059_B_baseline_p128_lr4e-04_L1PercSSIMFreq",
+    "best_psnr": 19.862652193307877,
+    "time_min": 74.2,
+    "config": "/home/user/computer_vision/configs/GA_0059_B_baseline_p128_lr4e-04_L1PercSSIMFreq.json"
+  },
+  {
+    "exp": "GA_0059_B_baseline_p128_lr4e-04_L1PercSSIMFreq",
+    "best_psnr": -1,
+    "error": "'ascii' codec can't encode character '\\u2705' in position 0: ordinal not in range(128)"
+  },
+  {
+    "exp": "GA_0060_B_baseline_p256_lr1e-04_L1",
+    "best_psnr": 28.708574516773226,
+    "time_min": 312.8,
+    "config": "/home/user/computer_vision/configs/GA_0060_B_baseline_p256_lr1e-04_L1.json"
+  },
+  {
+    "exp": "GA_0061_B_baseline_p256_lr1e-04_L1Perc",
+    "best_psnr": 28.87203287243843,
+    "time_min": 321.4,
+    "config": "/home/user/computer_vision/configs/GA_0061_B_baseline_p256_lr1e-04_L1Perc.json"
+  },
+  {
+    "exp": "GA_0062_B_baseline_p256_lr1e-04_L1SSIM",
+    "best_psnr": 20.500932068824767,
+    "time_min": 256.8,
+    "config": "/home/user/computer_vision/configs/GA_0062_B_baseline_p256_lr1e-04_L1SSIM.json"
+  },
+  {
+    "exp": "GA_0063_B_baseline_p256_lr1e-04_L1PercSSIMFreq",
+    "best_psnr": 24.85637841105461,
+    "time_min": 330.2,
+    "config": "/home/user/computer_vision/configs/GA_0063_B_baseline_p256_lr1e-04_L1PercSSIMFreq.json"
+  },
+  {
+    "exp": "GA_0064_B_baseline_p256_lr2e-04_L1",
+    "best_psnr": 28.773371778726577,
+    "time_min": 312.7,
+    "config": "/home/user/computer_vision/configs/GA_0064_B_baseline_p256_lr2e-04_L1.json"
+  },
+  {
+    "exp": "GA_0064_B_baseline_p256_lr2e-04_L1",
+    "best_psnr": -1,
+    "error": "'ascii' codec can't encode character '\\u2705' in position 0: ordinal not in range(128)"
+  },
+  {
+    "exp": "GA_0065_B_baseline_p256_lr2e-04_L1Perc",
+    "best_psnr": 29.17436363697052,
+    "time_min": 321.3,
+    "config": "/home/user/computer_vision/configs/GA_0065_B_baseline_p256_lr2e-04_L1Perc.json"
+  },
+  {
+    "exp": "GA_0066_B_baseline_p256_lr2e-04_L1SSIM",
+    "best_psnr": 20.814644864797593,
+    "time_min": 255.0,
+    "config": "/home/user/computer_vision/configs/GA_0066_B_baseline_p256_lr2e-04_L1SSIM.json"
+  },
+  {
+    "exp": "GA_0067_B_baseline_p256_lr2e-04_L1PercSSIMFreq",
+    "best_psnr": 21.219932892918585,
+    "time_min": 330.4,
+    "config": "/home/user/computer_vision/configs/GA_0067_B_baseline_p256_lr2e-04_L1PercSSIMFreq.json"
+  },
+  {
+    "exp": "GA_0068_B_baseline_p256_lr4e-04_L1",
+    "best_psnr": 28.734451076984406,
+    "time_min": 312.8,
+    "config": "/home/user/computer_vision/configs/GA_0068_B_baseline_p256_lr4e-04_L1.json"
+  },
+  {
+    "exp": "GA_0069_B_baseline_p256_lr4e-04_L1Perc",
+    "best_psnr": 28.937365815639495,
+    "time_min": 321.4,
+    "config": "/home/user/computer_vision/configs/GA_0069_B_baseline_p256_lr4e-04_L1Perc.json"
+  },
+  {
+    "exp": "GA_0069_B_baseline_p256_lr4e-04_L1Perc",
+    "best_psnr": -1,
+    "error": "'ascii' codec can't encode character '\\u2705' in position 0: ordinal not in range(128)"
+  },
+  {
+    "exp": "GA_0070_B_baseline_p256_lr4e-04_L1SSIM",
+    "best_psnr": 8.737336956858634,
+    "time_min": 270.5,
+    "config": "/home/user/computer_vision/configs/GA_0070_B_baseline_p256_lr4e-04_L1SSIM.json"
+  },
+  {
+    "exp": "GA_0071_B_baseline_p256_lr4e-04_L1PercSSIMFreq",
+    "best_psnr": 20.62890088438988,
+    "time_min": 278.7,
+    "config": "/home/user/computer_vision/configs/GA_0071_B_baseline_p256_lr4e-04_L1PercSSIMFreq.json"
+  },
+  {
+    "exp": "GA_0072_L_baseline_p128_lr1e-04_L1",
+    "best_psnr": 28.270575866699218,
+    "time_min": 185.0,
+    "config": "/home/user/computer_vision/configs/GA_0072_L_baseline_p128_lr1e-04_L1.json"
+  },
+  {
+    "exp": "GA_0073_L_baseline_p128_lr1e-04_L1Perc",
+    "best_psnr": 28.21083601951599,
+    "time_min": 187.4,
+    "config": "/home/user/computer_vision/configs/GA_0073_L_baseline_p128_lr1e-04_L1Perc.json"
+  },
+  {
+    "exp": "GA_0074_L_baseline_p128_lr1e-04_L1SSIM",
+    "best_psnr": 21.22043073117733,
+    "time_min": 188.7,
+    "config": "/home/user/computer_vision/configs/GA_0074_L_baseline_p128_lr1e-04_L1SSIM.json"
+  },
+  {
+    "exp": "GA_0074_L_baseline_p128_lr1e-04_L1SSIM",
+    "best_psnr": -1,
+    "error": "'ascii' codec can't encode character '\\u2705' in position 0: ordinal not in range(128)"
+  },
+  {
+    "exp": "GA_0075_L_baseline_p128_lr1e-04_L1PercSSIMFreq",
+    "best_psnr": 19.819475004076956,
+    "time_min": 153.1,
+    "config": "/home/user/computer_vision/configs/GA_0075_L_baseline_p128_lr1e-04_L1PercSSIMFreq.json"
+  },
+  {
+    "exp": "GA_0076_L_baseline_p128_lr2e-04_L1",
+    "best_psnr": 27.3296896648407,
+    "time_min": 185.0,
+    "config": "/home/user/computer_vision/configs/GA_0076_L_baseline_p128_lr2e-04_L1.json"
+  },
+  {
+    "exp": "GA_0077_L_baseline_p128_lr2e-04_L1Perc",
+    "best_psnr": 27.20876576066017,
+    "time_min": 187.4,
+    "config": "/home/user/computer_vision/configs/GA_0077_L_baseline_p128_lr2e-04_L1Perc.json"
+  },
+  {
+    "exp": "GA_0078_L_baseline_p128_lr2e-04_L1SSIM",
+    "best_psnr": 20.6920950037241,
+    "time_min": 188.8,
+    "config": "/home/user/computer_vision/configs/GA_0078_L_baseline_p128_lr2e-04_L1SSIM.json"
+  },
+  {
+    "exp": "GA_0079_L_baseline_p128_lr2e-04_L1PercSSIMFreq",
+    "best_psnr": 18.15360265493393,
+    "time_min": 153.0,
+    "config": "/home/user/computer_vision/configs/GA_0079_L_baseline_p128_lr2e-04_L1PercSSIMFreq.json"
+  },
+  {
+    "exp": "GA_0079_L_baseline_p128_lr2e-04_L1PercSSIMFreq",
+    "best_psnr": -1,
+    "error": "'ascii' codec can't encode character '\\u2705' in position 0: ordinal not in range(128)"
+  },
+  {
+    "exp": "GA_0080_L_baseline_p128_lr4e-04_L1",
+    "best_psnr": 26.47631440162659,
+    "time_min": 184.9,
+    "config": "/home/user/computer_vision/configs/GA_0080_L_baseline_p128_lr4e-04_L1.json"
+  },
+  {
+    "exp": "GA_0081_L_baseline_p128_lr4e-04_L1Perc",
+    "best_psnr": 26.856296195983887,
+    "time_min": 187.2,
+    "config": "/home/user/computer_vision/configs/GA_0081_L_baseline_p128_lr4e-04_L1Perc.json"
+  },
+  {
+    "exp": "GA_0082_L_baseline_p128_lr4e-04_L1SSIM",
+    "best_psnr": 16.08808017194271,
+    "time_min": 160.5,
+    "config": "/home/user/computer_vision/configs/GA_0082_L_baseline_p128_lr4e-04_L1SSIM.json"
+  },
+  {
+    "exp": "GA_0083_L_baseline_p128_lr4e-04_L1PercSSIMFreq",
+    "best_psnr": 18.39669903874397,
+    "time_min": 187.8,
+    "config": "/home/user/computer_vision/configs/GA_0083_L_baseline_p128_lr4e-04_L1PercSSIMFreq.json"
+  },
+  {
+    "exp": "GB_0084_T_freq_branch_p128_lr1e-04_L1",
+    "best_psnr": 25.802285054922105,
+    "time_min": 57.2,
+    "config": "/home/user/computer_vision/configs/GB_0084_T_freq_branch_p128_lr1e-04_L1.json"
+  },
+  {
+    "exp": "GB_0084_T_freq_branch_p128_lr1e-04_L1",
+    "best_psnr": -1,
+    "error": "'ascii' codec can't encode character '\\u2705' in position 0: ordinal not in range(128)"
+  },
+  {
+    "exp": "GB_0085_T_freq_branch_p128_lr1e-04_L1Perc",
+    "best_psnr": 26.026278743743898,
+    "time_min": 59.5,
+    "config": "/home/user/computer_vision/configs/GB_0085_T_freq_branch_p128_lr1e-04_L1Perc.json"
+  },
+  {
+    "exp": "GB_0086_T_freq_branch_p128_lr1e-04_L1SSIM",
+    "best_psnr": 21.25329361498356,
+    "time_min": 59.9,
+    "config": "/home/user/computer_vision/configs/GB_0086_T_freq_branch_p128_lr1e-04_L1SSIM.json"
+  },
+  {
+    "exp": "GB_0087_T_freq_branch_p128_lr1e-04_L1PercSSIMFreq",
+    "best_psnr": 23.868143196105958,
+    "time_min": 62.5,
+    "config": "/home/user/computer_vision/configs/GB_0087_T_freq_branch_p128_lr1e-04_L1PercSSIMFreq.json"
+  },
+  {
+    "exp": "GB_0088_T_freq_branch_p128_lr2e-04_L1",
+    "best_psnr": 26.234815369844437,
+    "time_min": 57.3,
+    "config": "/home/user/computer_vision/configs/GB_0088_T_freq_branch_p128_lr2e-04_L1.json"
+  },
+  {
+    "exp": "GB_0089_T_freq_branch_p128_lr2e-04_L1Perc",
+    "best_psnr": 26.16969819188118,
+    "time_min": 59.6,
+    "config": "/home/user/computer_vision/configs/GB_0089_T_freq_branch_p128_lr2e-04_L1Perc.json"
+  },
+  {
+    "exp": "GB_0089_T_freq_branch_p128_lr2e-04_L1Perc",
+    "best_psnr": -1,
+    "error": "'ascii' codec can't encode character '\\u2705' in position 0: ordinal not in range(128)"
+  },
+  {
+    "exp": "GB_0090_T_freq_branch_p128_lr2e-04_L1SSIM",
+    "best_psnr": 21.194964235424994,
+    "time_min": 50.9,
+    "config": "/home/user/computer_vision/configs/GB_0090_T_freq_branch_p128_lr2e-04_L1SSIM.json"
+  },
+  {
+    "exp": "GB_0091_T_freq_branch_p128_lr2e-04_L1PercSSIMFreq",
+    "best_psnr": 19.74776073694229,
+    "time_min": 50.0,
+    "config": "/home/user/computer_vision/configs/GB_0091_T_freq_branch_p128_lr2e-04_L1PercSSIMFreq.json"
+  },
+  {
+    "exp": "GB_0092_T_freq_branch_p128_lr4e-04_L1",
+    "best_psnr": 26.556389297246934,
+    "time_min": 57.3,
+    "config": "/home/user/computer_vision/configs/GB_0092_T_freq_branch_p128_lr4e-04_L1.json"
+  },
+  {
+    "exp": "GB_0093_T_freq_branch_p128_lr4e-04_L1Perc",
+    "best_psnr": 26.382317212820052,
+    "time_min": 59.5,
+    "config": "/home/user/computer_vision/configs/GB_0093_T_freq_branch_p128_lr4e-04_L1Perc.json"
+  },
+  {
+    "exp": "GB_0094_T_freq_branch_p128_lr4e-04_L1SSIM",
+    "best_psnr": 20.496754565834998,
+    "time_min": 47.9,
+    "config": "/home/user/computer_vision/configs/GB_0094_T_freq_branch_p128_lr4e-04_L1SSIM.json"
+  },
+  {
+    "exp": "GB_0094_T_freq_branch_p128_lr4e-04_L1SSIM",
+    "best_psnr": -1,
+    "error": "'ascii' codec can't encode character '\\u2705' in position 0: ordinal not in range(128)"
+  },
+  {
+    "exp": "GB_0095_T_freq_branch_p128_lr4e-04_L1PercSSIMFreq",
+    "best_psnr": 20.167451008558274,
+    "time_min": 62.5,
+    "config": "/home/user/computer_vision/configs/GB_0095_T_freq_branch_p128_lr4e-04_L1PercSSIMFreq.json"
+  },
+  {
+    "exp": "GB_0096_T_freq_branch_p256_lr1e-04_L1",
+    "best_psnr": 27.49549691915512,
+    "time_min": 210.6,
+    "config": "/home/user/computer_vision/configs/GB_0096_T_freq_branch_p256_lr1e-04_L1.json"
+  },
+  {
+    "exp": "GB_0097_T_freq_branch_p256_lr1e-04_L1Perc",
+    "best_psnr": 27.405756554603578,
+    "time_min": 219.0,
+    "config": "/home/user/computer_vision/configs/GB_0097_T_freq_branch_p256_lr1e-04_L1Perc.json"
+  },
+  {
+    "exp": "GB_0098_T_freq_branch_p256_lr1e-04_L1SSIM",
+    "best_psnr": 20.184533252716065,
+    "time_min": 173.8,
+    "config": "/home/user/computer_vision/configs/GB_0098_T_freq_branch_p256_lr1e-04_L1SSIM.json"
+  },
+  {
+    "exp": "GB_0099_T_freq_branch_p256_lr1e-04_L1PercSSIMFreq",
+    "best_psnr": 21.517633810043336,
+    "time_min": 182.1,
+    "config": "/home/user/computer_vision/configs/GB_0099_T_freq_branch_p256_lr1e-04_L1PercSSIMFreq.json"
+  },
+  {
+    "exp": "GB_0099_T_freq_branch_p256_lr1e-04_L1PercSSIMFreq",
+    "best_psnr": -1,
+    "error": "'ascii' codec can't encode character '\\u2705' in position 0: ordinal not in range(128)"
+  },
+  {
+    "exp": "GB_0100_T_freq_branch_p256_lr2e-04_L1",
+    "best_psnr": 27.229363003969194,
+    "time_min": 210.6,
+    "config": "/home/user/computer_vision/configs/GB_0100_T_freq_branch_p256_lr2e-04_L1.json"
+  },
+  {
+    "exp": "GB_0101_T_freq_branch_p256_lr2e-04_L1Perc",
+    "best_psnr": 27.645672093629837,
+    "time_min": 219.0,
+    "config": "/home/user/computer_vision/configs/GB_0101_T_freq_branch_p256_lr2e-04_L1Perc.json"
+  },
+  {
+    "exp": "GB_0102_T_freq_branch_p256_lr2e-04_L1SSIM",
+    "best_psnr": 18.603293269872665,
+    "time_min": 218.4,
+    "config": "/home/user/computer_vision/configs/GB_0102_T_freq_branch_p256_lr2e-04_L1SSIM.json"
+  },
+  {
+    "exp": "GB_0103_T_freq_branch_p256_lr2e-04_L1PercSSIMFreq",
+    "best_psnr": 21.999573991298675,
+    "time_min": 192.1,
+    "config": "/home/user/computer_vision/configs/GB_0103_T_freq_branch_p256_lr2e-04_L1PercSSIMFreq.json"
+  },
+  {
+    "exp": "GB_0104_T_freq_branch_p256_lr4e-04_L1",
+    "best_psnr": 27.71252813577652,
+    "time_min": 210.6,
+    "config": "/home/user/computer_vision/configs/GB_0104_T_freq_branch_p256_lr4e-04_L1.json"
+  },
+  {
+    "exp": "GB_0104_T_freq_branch_p256_lr4e-04_L1",
+    "best_psnr": -1,
+    "error": "'ascii' codec can't encode character '\\u2705' in position 0: ordinal not in range(128)"
+  },
+  {
+    "exp": "GB_0105_T_freq_branch_p256_lr4e-04_L1Perc",
+    "best_psnr": 27.56529231071472,
+    "time_min": 219.0,
+    "config": "/home/user/computer_vision/configs/GB_0105_T_freq_branch_p256_lr4e-04_L1Perc.json"
+  },
+  {
+    "exp": "GB_0106_T_freq_branch_p256_lr4e-04_L1SSIM",
+    "best_psnr": 21.23525467276573,
+    "time_min": 183.9,
+    "config": "/home/user/computer_vision/configs/GB_0106_T_freq_branch_p256_lr4e-04_L1SSIM.json"
+  },
+  {
+    "exp": "GB_0107_T_freq_branch_p256_lr4e-04_L1PercSSIMFreq",
+    "best_psnr": 20.655459661483764,
+    "time_min": 180.4,
+    "config": "/home/user/computer_vision/configs/GB_0107_T_freq_branch_p256_lr4e-04_L1PercSSIMFreq.json"
+  },
+  {
+    "exp": "GB_0108_S_freq_branch_p128_lr1e-04_L1",
+    "best_psnr": 26.562981704473497,
+    "time_min": 64.5,
+    "config": "/home/user/computer_vision/configs/GB_0108_S_freq_branch_p128_lr1e-04_L1.json"
+  },
+  {
+    "exp": "GB_0109_S_freq_branch_p128_lr1e-04_L1Perc",
+    "best_psnr": 26.882826917171478,
+    "time_min": 66.8,
+    "config": "/home/user/computer_vision/configs/GB_0109_S_freq_branch_p128_lr1e-04_L1Perc.json"
+  },
+  {
+    "exp": "GB_0109_S_freq_branch_p128_lr1e-04_L1Perc",
+    "best_psnr": -1,
+    "error": "'ascii' codec can't encode character '\\u2705' in position 0: ordinal not in range(128)"
+  },
+  {
+    "exp": "GB_0110_S_freq_branch_p128_lr1e-04_L1SSIM",
+    "best_psnr": 20.31069152712822,
+    "time_min": 53.9,
+    "config": "/home/user/computer_vision/configs/GB_0110_S_freq_branch_p128_lr1e-04_L1SSIM.json"
+  },
+  {
+    "exp": "GB_0111_S_freq_branch_p128_lr1e-04_L1PercSSIMFreq",
+    "best_psnr": 21.90142118036747,
+    "time_min": 66.5,
+    "config": "/home/user/computer_vision/configs/GB_0111_S_freq_branch_p128_lr1e-04_L1PercSSIMFreq.json"
+  },
+  {
+    "exp": "GB_0112_S_freq_branch_p128_lr2e-04_L1",
+    "best_psnr": 26.863084394931793,
+    "time_min": 64.5,
+    "config": "/home/user/computer_vision/configs/GB_0112_S_freq_branch_p128_lr2e-04_L1.json"
+  },
+  {
+    "exp": "GB_0113_S_freq_branch_p128_lr2e-04_L1Perc",
+    "best_psnr": 26.96435734629631,
+    "time_min": 66.8,
+    "config": "/home/user/computer_vision/configs/GB_0113_S_freq_branch_p128_lr2e-04_L1Perc.json"
+  },
+  {
+    "exp": "GB_0114_S_freq_branch_p128_lr2e-04_L1SSIM",
+    "best_psnr": 22.516803262233733,
+    "time_min": 67.4,
+    "config": "/home/user/computer_vision/configs/GB_0114_S_freq_branch_p128_lr2e-04_L1SSIM.json"
+  },
+  {
+    "exp": "GB_0114_S_freq_branch_p128_lr2e-04_L1SSIM",
+    "best_psnr": -1,
+    "error": "'ascii' codec can't encode character '\\u2705' in position 0: ordinal not in range(128)"
+  },
+  {
+    "exp": "GB_0115_S_freq_branch_p128_lr2e-04_L1PercSSIMFreq",
+    "best_psnr": 21.268280789256096,
+    "time_min": 66.5,
+    "config": "/home/user/computer_vision/configs/GB_0115_S_freq_branch_p128_lr2e-04_L1PercSSIMFreq.json"
+  },
+  {
+    "exp": "GB_0116_S_freq_branch_p128_lr4e-04_L1",
+    "best_psnr": 26.84135200738907,
+    "time_min": 64.5,
+    "config": "/home/user/computer_vision/configs/GB_0116_S_freq_branch_p128_lr4e-04_L1.json"
+  },
+  {
+    "exp": "GB_0117_S_freq_branch_p128_lr4e-04_L1Perc",
+    "best_psnr": 26.89718919157982,
+    "time_min": 66.8,
+    "config": "/home/user/computer_vision/configs/GB_0117_S_freq_branch_p128_lr4e-04_L1Perc.json"
+  },
+  {
+    "exp": "GB_0118_S_freq_branch_p128_lr4e-04_L1SSIM",
+    "best_psnr": 21.28327646434307,
+    "time_min": 57.3,
+    "config": "/home/user/computer_vision/configs/GB_0118_S_freq_branch_p128_lr4e-04_L1SSIM.json"
+  },
+  {
+    "exp": "GB_0119_S_freq_branch_p128_lr4e-04_L1PercSSIMFreq",
+    "best_psnr": 21.53466683745384,
+    "time_min": 63.0,
+    "config": "/home/user/computer_vision/configs/GB_0119_S_freq_branch_p128_lr4e-04_L1PercSSIMFreq.json"
+  },
+  {
+    "exp": "GB_0119_S_freq_branch_p128_lr4e-04_L1PercSSIMFreq",
+    "best_psnr": -1,
+    "error": "'ascii' codec can't encode character '\\u2705' in position 0: ordinal not in range(128)"
+  },
+  {
+    "exp": "GB_0120_S_freq_branch_p256_lr1e-04_L1",
+    "best_psnr": 28.171078898906707,
+    "time_min": 233.9,
+    "config": "/home/user/computer_vision/configs/GB_0120_S_freq_branch_p256_lr1e-04_L1.json"
+  },
+  {
+    "exp": "GB_0121_S_freq_branch_p256_lr1e-04_L1Perc",
+    "best_psnr": 28.482981745004654,
+    "time_min": 242.3,
+    "config": "/home/user/computer_vision/configs/GB_0121_S_freq_branch_p256_lr1e-04_L1Perc.json"
+  },
+  {
+    "exp": "GB_0122_S_freq_branch_p256_lr1e-04_L1SSIM",
+    "best_psnr": 26.032433844804764,
+    "time_min": 242.3,
+    "config": "/home/user/computer_vision/configs/GB_0122_S_freq_branch_p256_lr1e-04_L1SSIM.json"
+  },
+  {
+    "exp": "GB_0123_S_freq_branch_p256_lr1e-04_L1PercSSIMFreq",
+    "best_psnr": 25.64937206029892,
+    "time_min": 251.5,
+    "config": "/home/user/computer_vision/configs/GB_0123_S_freq_branch_p256_lr1e-04_L1PercSSIMFreq.json"
+  },
+  {
+    "exp": "GB_0124_S_freq_branch_p256_lr2e-04_L1",
+    "best_psnr": 28.473818956613542,
+    "time_min": 234.1,
+    "config": "/home/user/computer_vision/configs/GB_0124_S_freq_branch_p256_lr2e-04_L1.json"
+  },
+  {
+    "exp": "GB_0124_S_freq_branch_p256_lr2e-04_L1",
+    "best_psnr": -1,
+    "error": "'ascii' codec can't encode character '\\u2705' in position 0: ordinal not in range(128)"
+  },
+  {
+    "exp": "GB_0125_S_freq_branch_p256_lr2e-04_L1Perc",
+    "best_psnr": 28.770602350234984,
+    "time_min": 242.5,
+    "config": "/home/user/computer_vision/configs/GB_0125_S_freq_branch_p256_lr2e-04_L1Perc.json"
+  },
+  {
+    "exp": "GB_0126_S_freq_branch_p256_lr2e-04_L1SSIM",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GB_0127_S_freq_branch_p256_lr2e-04_L1PercSSIMFreq",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GB_0128_S_freq_branch_p256_lr4e-04_L1",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GB_0129_S_freq_branch_p256_lr4e-04_L1Perc",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GB_0130_S_freq_branch_p256_lr4e-04_L1SSIM",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GB_0131_S_freq_branch_p256_lr4e-04_L1PercSSIMFreq",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GB_0132_B_freq_branch_p128_lr1e-04_L1",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GB_0133_B_freq_branch_p128_lr1e-04_L1Perc",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GB_0134_B_freq_branch_p128_lr1e-04_L1SSIM",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GB_0135_B_freq_branch_p128_lr1e-04_L1PercSSIMFreq",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GB_0136_B_freq_branch_p128_lr2e-04_L1",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GB_0137_B_freq_branch_p128_lr2e-04_L1Perc",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GB_0138_B_freq_branch_p128_lr2e-04_L1SSIM",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GB_0139_B_freq_branch_p128_lr2e-04_L1PercSSIMFreq",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GB_0140_B_freq_branch_p128_lr4e-04_L1",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GB_0141_B_freq_branch_p128_lr4e-04_L1Perc",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GB_0142_B_freq_branch_p128_lr4e-04_L1SSIM",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GB_0143_B_freq_branch_p128_lr4e-04_L1PercSSIMFreq",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GB_0144_B_freq_branch_p256_lr1e-04_L1",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GB_0145_B_freq_branch_p256_lr1e-04_L1Perc",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GB_0146_B_freq_branch_p256_lr1e-04_L1SSIM",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GB_0147_B_freq_branch_p256_lr1e-04_L1PercSSIMFreq",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GB_0148_B_freq_branch_p256_lr2e-04_L1",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GB_0149_B_freq_branch_p256_lr2e-04_L1Perc",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GB_0150_B_freq_branch_p256_lr2e-04_L1SSIM",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GB_0151_B_freq_branch_p256_lr2e-04_L1PercSSIMFreq",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GB_0152_B_freq_branch_p256_lr4e-04_L1",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GB_0153_B_freq_branch_p256_lr4e-04_L1Perc",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GB_0154_B_freq_branch_p256_lr4e-04_L1SSIM",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GB_0155_B_freq_branch_p256_lr4e-04_L1PercSSIMFreq",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GC_0156_T_deformable_attn_p128_lr1e-04_L1",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GC_0157_T_deformable_attn_p128_lr1e-04_L1Perc",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GC_0158_T_deformable_attn_p128_lr1e-04_L1SSIM",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GC_0159_T_deformable_attn_p128_lr1e-04_L1PercSSIMFreq",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GC_0160_T_deformable_attn_p128_lr2e-04_L1",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GC_0161_T_deformable_attn_p128_lr2e-04_L1Perc",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GC_0162_T_deformable_attn_p128_lr2e-04_L1SSIM",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GC_0163_T_deformable_attn_p128_lr2e-04_L1PercSSIMFreq",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GC_0164_T_deformable_attn_p128_lr4e-04_L1",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GC_0165_T_deformable_attn_p128_lr4e-04_L1Perc",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GC_0166_T_deformable_attn_p128_lr4e-04_L1SSIM",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GC_0167_T_deformable_attn_p128_lr4e-04_L1PercSSIMFreq",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GC_0168_T_deformable_attn_p256_lr1e-04_L1",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GC_0169_T_deformable_attn_p256_lr1e-04_L1Perc",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GC_0170_T_deformable_attn_p256_lr1e-04_L1SSIM",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GC_0171_T_deformable_attn_p256_lr1e-04_L1PercSSIMFreq",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GC_0172_T_deformable_attn_p256_lr2e-04_L1",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GC_0173_T_deformable_attn_p256_lr2e-04_L1Perc",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GC_0174_T_deformable_attn_p256_lr2e-04_L1SSIM",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GC_0175_T_deformable_attn_p256_lr2e-04_L1PercSSIMFreq",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GC_0176_T_deformable_attn_p256_lr4e-04_L1",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GC_0177_T_deformable_attn_p256_lr4e-04_L1Perc",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GC_0178_T_deformable_attn_p256_lr4e-04_L1SSIM",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GC_0179_T_deformable_attn_p256_lr4e-04_L1PercSSIMFreq",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GC_0180_S_deformable_attn_p128_lr1e-04_L1",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GC_0181_S_deformable_attn_p128_lr1e-04_L1Perc",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GC_0182_S_deformable_attn_p128_lr1e-04_L1SSIM",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GC_0183_S_deformable_attn_p128_lr1e-04_L1PercSSIMFreq",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GC_0184_S_deformable_attn_p128_lr2e-04_L1",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GC_0185_S_deformable_attn_p128_lr2e-04_L1Perc",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GC_0186_S_deformable_attn_p128_lr2e-04_L1SSIM",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GC_0187_S_deformable_attn_p128_lr2e-04_L1PercSSIMFreq",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GC_0188_S_deformable_attn_p128_lr4e-04_L1",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GC_0189_S_deformable_attn_p128_lr4e-04_L1Perc",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GC_0190_S_deformable_attn_p128_lr4e-04_L1SSIM",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GC_0191_S_deformable_attn_p128_lr4e-04_L1PercSSIMFreq",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GC_0192_S_deformable_attn_p256_lr1e-04_L1",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GC_0193_S_deformable_attn_p256_lr1e-04_L1Perc",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GC_0194_S_deformable_attn_p256_lr1e-04_L1SSIM",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GC_0195_S_deformable_attn_p256_lr1e-04_L1PercSSIMFreq",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GC_0196_S_deformable_attn_p256_lr2e-04_L1",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GC_0197_S_deformable_attn_p256_lr2e-04_L1Perc",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GC_0198_S_deformable_attn_p256_lr2e-04_L1SSIM",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GC_0199_S_deformable_attn_p256_lr2e-04_L1PercSSIMFreq",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GC_0200_S_deformable_attn_p256_lr4e-04_L1",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GC_0201_S_deformable_attn_p256_lr4e-04_L1Perc",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GC_0202_S_deformable_attn_p256_lr4e-04_L1SSIM",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GC_0203_S_deformable_attn_p256_lr4e-04_L1PercSSIMFreq",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GC_0204_B_deformable_attn_p128_lr1e-04_L1",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GC_0205_B_deformable_attn_p128_lr1e-04_L1Perc",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GC_0206_B_deformable_attn_p128_lr1e-04_L1SSIM",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GC_0207_B_deformable_attn_p128_lr1e-04_L1PercSSIMFreq",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GC_0208_B_deformable_attn_p128_lr2e-04_L1",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GC_0209_B_deformable_attn_p128_lr2e-04_L1Perc",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GC_0210_B_deformable_attn_p128_lr2e-04_L1SSIM",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GC_0211_B_deformable_attn_p128_lr2e-04_L1PercSSIMFreq",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GC_0212_B_deformable_attn_p128_lr4e-04_L1",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GC_0213_B_deformable_attn_p128_lr4e-04_L1Perc",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GC_0214_B_deformable_attn_p128_lr4e-04_L1SSIM",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GC_0215_B_deformable_attn_p128_lr4e-04_L1PercSSIMFreq",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GC_0216_B_deformable_attn_p256_lr1e-04_L1",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GC_0217_B_deformable_attn_p256_lr1e-04_L1Perc",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GC_0218_B_deformable_attn_p256_lr1e-04_L1SSIM",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GC_0219_B_deformable_attn_p256_lr1e-04_L1PercSSIMFreq",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GC_0220_B_deformable_attn_p256_lr2e-04_L1",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GC_0221_B_deformable_attn_p256_lr2e-04_L1Perc",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GC_0222_B_deformable_attn_p256_lr2e-04_L1SSIM",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GC_0223_B_deformable_attn_p256_lr2e-04_L1PercSSIMFreq",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GC_0224_B_deformable_attn_p256_lr4e-04_L1",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GC_0225_B_deformable_attn_p256_lr4e-04_L1Perc",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GC_0226_B_deformable_attn_p256_lr4e-04_L1SSIM",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GC_0227_B_deformable_attn_p256_lr4e-04_L1PercSSIMFreq",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GD_0228_S_channel_attn_p128_lr1e-04_L1",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GD_0229_S_channel_attn_p128_lr1e-04_L1PercSSIMFreq",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GD_0230_S_channel_attn_p128_lr2e-04_L1",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GD_0231_S_channel_attn_p128_lr2e-04_L1PercSSIMFreq",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GD_0232_S_channel_attn_p128_lr4e-04_L1",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GD_0233_S_channel_attn_p128_lr4e-04_L1PercSSIMFreq",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GD_0234_S_channel_attn_p256_lr1e-04_L1",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GD_0235_S_channel_attn_p256_lr1e-04_L1PercSSIMFreq",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GD_0236_S_channel_attn_p256_lr2e-04_L1",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GD_0237_S_channel_attn_p256_lr2e-04_L1PercSSIMFreq",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GD_0238_S_channel_attn_p256_lr4e-04_L1",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GD_0239_S_channel_attn_p256_lr4e-04_L1PercSSIMFreq",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GD_0240_B_channel_attn_p128_lr1e-04_L1",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GD_0241_B_channel_attn_p128_lr1e-04_L1PercSSIMFreq",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GD_0242_B_channel_attn_p128_lr2e-04_L1",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GD_0243_B_channel_attn_p128_lr2e-04_L1PercSSIMFreq",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GD_0244_B_channel_attn_p128_lr4e-04_L1",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GD_0245_B_channel_attn_p128_lr4e-04_L1PercSSIMFreq",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GD_0246_B_channel_attn_p256_lr1e-04_L1",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GD_0247_B_channel_attn_p256_lr1e-04_L1PercSSIMFreq",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GD_0248_B_channel_attn_p256_lr2e-04_L1",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GD_0249_B_channel_attn_p256_lr2e-04_L1PercSSIMFreq",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GD_0250_B_channel_attn_p256_lr4e-04_L1",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GD_0251_B_channel_attn_p256_lr4e-04_L1PercSSIMFreq",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GE_0252_S_freq_deformable_p128_lr1e-04_L1",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GE_0253_S_freq_deformable_p128_lr1e-04_L1PercSSIMFreq",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GE_0254_S_freq_deformable_p128_lr2e-04_L1",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GE_0255_S_freq_deformable_p128_lr2e-04_L1PercSSIMFreq",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GE_0256_S_freq_deformable_p128_lr4e-04_L1",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GE_0257_S_freq_deformable_p128_lr4e-04_L1PercSSIMFreq",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GE_0258_S_freq_deformable_p256_lr1e-04_L1",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GE_0259_S_freq_deformable_p256_lr1e-04_L1PercSSIMFreq",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GE_0260_S_freq_deformable_p256_lr2e-04_L1",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GE_0261_S_freq_deformable_p256_lr2e-04_L1PercSSIMFreq",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GE_0262_S_freq_deformable_p256_lr4e-04_L1",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GE_0263_S_freq_deformable_p256_lr4e-04_L1PercSSIMFreq",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GE_0264_B_freq_deformable_p128_lr1e-04_L1",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GE_0265_B_freq_deformable_p128_lr1e-04_L1PercSSIMFreq",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GE_0266_B_freq_deformable_p128_lr2e-04_L1",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GE_0267_B_freq_deformable_p128_lr2e-04_L1PercSSIMFreq",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GE_0268_B_freq_deformable_p128_lr4e-04_L1",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GE_0269_B_freq_deformable_p128_lr4e-04_L1PercSSIMFreq",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GE_0270_B_freq_deformable_p256_lr1e-04_L1",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GE_0271_B_freq_deformable_p256_lr1e-04_L1PercSSIMFreq",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GE_0272_B_freq_deformable_p256_lr2e-04_L1",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GE_0273_B_freq_deformable_p256_lr2e-04_L1PercSSIMFreq",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GE_0274_B_freq_deformable_p256_lr4e-04_L1",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  },
+  {
+    "exp": "GE_0275_B_freq_deformable_p256_lr4e-04_L1PercSSIMFreq",
+    "best_psnr": -1,
+    "error": "[Errno 32] Broken pipe"
+  }
+]

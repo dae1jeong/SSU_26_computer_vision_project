@@ -88,6 +88,12 @@ def train(config):
         scheduler.step()
         train_loss /= len(train_loader)
 
+        # NaN 감지 즉시 종료
+        import math as _math
+        if _math.isnan(train_loss) or _math.isinf(train_loss):
+            print(f"  ❌ NaN/Inf 감지 at epoch {epoch} → 즉시 종료")
+            break
+
         # Validation
         if epoch % config['val_freq'] == 0:
             model.eval()
@@ -110,6 +116,12 @@ def train(config):
             writer.add_scalar('PSNR/val',   avg_psnr,   epoch)
             writer.add_scalar('SSIM/val',   avg_ssim,   epoch)
             results.append({'epoch': epoch, 'loss': train_loss, 'psnr': avg_psnr, 'ssim': avg_ssim})
+
+            # NaN PSNR 감지 즉시 종료
+            import math as _math2
+            if _math2.isnan(avg_psnr) or _math2.isinf(avg_psnr):
+                print(f"  ❌ NaN PSNR 감지 at epoch {epoch} → 즉시 종료")
+                break
 
             if avg_psnr > best_psnr:
                 best_psnr = avg_psnr
