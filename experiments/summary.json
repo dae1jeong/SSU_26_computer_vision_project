@@ -550,5 +550,35 @@
     "best_psnr": 26.993767001628875,
     "time_min": 89.2,
     "config": "/home/user/computer_vision/configs/GB_0133_B_freq_branch_p128_lr1e-04_L1Perc.json"
+  },
+  {
+    "exp": "GB_0134_B_freq_branch_p128_lr1e-04_L1SSIM",
+    "best_psnr": 21.204948309659958,
+    "time_min": 85.5,
+    "config": "/home/user/computer_vision/configs/GB_0134_B_freq_branch_p128_lr1e-04_L1SSIM.json"
+  },
+  {
+    "exp": "GB_0135_B_freq_branch_p128_lr1e-04_L1PercSSIMFreq",
+    "best_psnr": 24.497633476257324,
+    "time_min": 92.9,
+    "config": "/home/user/computer_vision/configs/GB_0135_B_freq_branch_p128_lr1e-04_L1PercSSIMFreq.json"
+  },
+  {
+    "exp": "GB_0136_B_freq_branch_p128_lr2e-04_L1",
+    "best_psnr": 27.35258459687233,
+    "time_min": 86.8,
+    "config": "/home/user/computer_vision/configs/GB_0136_B_freq_branch_p128_lr2e-04_L1.json"
+  },
+  {
+    "exp": "GB_0137_B_freq_branch_p128_lr2e-04_L1Perc",
+    "best_psnr": 27.274904563426972,
+    "time_min": 89.2,
+    "config": "/home/user/computer_vision/configs/GB_0137_B_freq_branch_p128_lr2e-04_L1Perc.json"
+  },
+  {
+    "exp": "GB_0138_B_freq_branch_p128_lr2e-04_L1SSIM",
+    "best_psnr": 20.902273973226546,
+    "time_min": 56.9,
+    "config": "/home/user/computer_vision/configs/GB_0138_B_freq_branch_p128_lr2e-04_L1SSIM.json"
   }
 ]
