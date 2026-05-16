@@ -670,5 +670,35 @@
     "best_psnr": 28.987381422519682,
     "time_min": 321.4,
     "config": "/home/user/computer_vision/configs/GB_0153_B_freq_branch_p256_lr4e-04_L1Perc.json"
+  },
+  {
+    "exp": "GB_0154_B_freq_branch_p256_lr4e-04_L1SSIM",
+    "best_psnr": 18.671190140247344,
+    "time_min": 38.3,
+    "config": "/home/user/computer_vision/configs/GB_0154_B_freq_branch_p256_lr4e-04_L1SSIM.json"
+  },
+  {
+    "exp": "GB_0155_B_freq_branch_p256_lr4e-04_L1PercSSIMFreq",
+    "best_psnr": 17.190415509939193,
+    "time_min": 78.9,
+    "config": "/home/user/computer_vision/configs/GB_0155_B_freq_branch_p256_lr4e-04_L1PercSSIMFreq.json"
+  },
+  {
+    "exp": "GC_0156_T_deformable_attn_p128_lr1e-04_L1",
+    "best_psnr": 25.948841004371644,
+    "time_min": 57.2,
+    "config": "/home/user/computer_vision/configs/GC_0156_T_deformable_attn_p128_lr1e-04_L1.json"
+  },
+  {
+    "exp": "GC_0157_T_deformable_attn_p128_lr1e-04_L1Perc",
+    "best_psnr": 26.17820168375969,
+    "time_min": 59.4,
+    "config": "/home/user/computer_vision/configs/GC_0157_T_deformable_attn_p128_lr1e-04_L1Perc.json"
+  },
+  {
+    "exp": "GC_0158_T_deformable_attn_p128_lr1e-04_L1SSIM",
+    "best_psnr": 20.97309100866318,
+    "time_min": 23.3,
+    "config": "/home/user/computer_vision/configs/GC_0158_T_deformable_attn_p128_lr1e-04_L1SSIM.json"
   }
 ]
