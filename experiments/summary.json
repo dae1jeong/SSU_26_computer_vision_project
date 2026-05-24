@@ -1180,5 +1180,35 @@
     "best_psnr": 28.5917497754097,
     "time_min": 233.8,
     "config": "/home/user/computer_vision/configs/GD_0238_S_channel_attn_p256_lr4e-04_L1.json"
+  },
+  {
+    "exp": "GD_0239_S_channel_attn_p256_lr4e-04_L1PercSSIMFreq",
+    "best_psnr": 14.199154736995697,
+    "time_min": 251.3,
+    "config": "/home/user/computer_vision/configs/GD_0239_S_channel_attn_p256_lr4e-04_L1PercSSIMFreq.json"
+  },
+  {
+    "exp": "GD_0240_B_channel_attn_p128_lr1e-04_L1",
+    "best_psnr": 26.876072590351104,
+    "time_min": 86.9,
+    "config": "/home/user/computer_vision/configs/GD_0240_B_channel_attn_p128_lr1e-04_L1.json"
+  },
+  {
+    "exp": "GD_0241_B_channel_attn_p128_lr1e-04_L1PercSSIMFreq",
+    "best_psnr": 24.425141205787657,
+    "time_min": 93.0,
+    "config": "/home/user/computer_vision/configs/GD_0241_B_channel_attn_p128_lr1e-04_L1PercSSIMFreq.json"
+  },
+  {
+    "exp": "GD_0242_B_channel_attn_p128_lr2e-04_L1",
+    "best_psnr": 27.13561835408211,
+    "time_min": 86.9,
+    "config": "/home/user/computer_vision/configs/GD_0242_B_channel_attn_p128_lr2e-04_L1.json"
+  },
+  {
+    "exp": "GD_0243_B_channel_attn_p128_lr2e-04_L1PercSSIMFreq",
+    "best_psnr": 20.45146006166935,
+    "time_min": 93.0,
+    "config": "/home/user/computer_vision/configs/GD_0243_B_channel_attn_p128_lr2e-04_L1PercSSIMFreq.json"
   }
 ]
