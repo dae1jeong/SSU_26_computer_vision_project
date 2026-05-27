@@ -1330,5 +1330,35 @@
     "best_psnr": 20.829109761714935,
     "time_min": 34.8,
     "config": "/home/user/computer_vision/configs/GE_0263_S_freq_deformable_p256_lr4e-04_L1PercSSIMFreq.json"
+  },
+  {
+    "exp": "GE_0264_B_freq_deformable_p128_lr1e-04_L1",
+    "best_psnr": 26.907286932468413,
+    "time_min": 86.9,
+    "config": "/home/user/computer_vision/configs/GE_0264_B_freq_deformable_p128_lr1e-04_L1.json"
+  },
+  {
+    "exp": "GE_0265_B_freq_deformable_p128_lr1e-04_L1PercSSIMFreq",
+    "best_psnr": 24.407355428934096,
+    "time_min": 92.9,
+    "config": "/home/user/computer_vision/configs/GE_0265_B_freq_deformable_p128_lr1e-04_L1PercSSIMFreq.json"
+  },
+  {
+    "exp": "GE_0266_B_freq_deformable_p128_lr2e-04_L1",
+    "best_psnr": 27.146065101623535,
+    "time_min": 86.8,
+    "config": "/home/user/computer_vision/configs/GE_0266_B_freq_deformable_p128_lr2e-04_L1.json"
+  },
+  {
+    "exp": "GE_0267_B_freq_deformable_p128_lr2e-04_L1PercSSIMFreq",
+    "best_psnr": 21.50208808541298,
+    "time_min": 79.0,
+    "config": "/home/user/computer_vision/configs/GE_0267_B_freq_deformable_p128_lr2e-04_L1PercSSIMFreq.json"
+  },
+  {
+    "exp": "GE_0268_B_freq_deformable_p128_lr4e-04_L1",
+    "best_psnr": 27.076795638799666,
+    "time_min": 86.8,
+    "config": "/home/user/computer_vision/configs/GE_0268_B_freq_deformable_p128_lr4e-04_L1.json"
   }
 ]
