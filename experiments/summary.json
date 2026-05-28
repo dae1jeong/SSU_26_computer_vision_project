@@ -1390,5 +1390,17 @@
     "best_psnr": 21.380326286554336,
     "time_min": 55.9,
     "config": "/home/user/computer_vision/configs/GE_0273_B_freq_deformable_p256_lr2e-04_L1PercSSIMFreq.json"
+  },
+  {
+    "exp": "GE_0274_B_freq_deformable_p256_lr4e-04_L1",
+    "best_psnr": 27.159373021125795,
+    "time_min": 312.6,
+    "config": "/home/user/computer_vision/configs/GE_0274_B_freq_deformable_p256_lr4e-04_L1.json"
+  },
+  {
+    "exp": "GE_0275_B_freq_deformable_p256_lr4e-04_L1PercSSIMFreq",
+    "best_psnr": 21.819456285834313,
+    "time_min": 82.0,
+    "config": "/home/user/computer_vision/configs/GE_0275_B_freq_deformable_p256_lr4e-04_L1PercSSIMFreq.json"
   }
 ]
