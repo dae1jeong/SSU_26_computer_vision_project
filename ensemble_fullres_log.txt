@@ -1,0 +1,45 @@
+/home/user/miniconda3/envs/jepa/lib/python3.10/site-packages/requests/__init__.py:109: RequestsDependencyWarning: urllib3 (1.26.13) or chardet (None)/charset_normalizer (3.4.7) doesn't match a supported version!
+  warnings.warn(
+/home/user/.local/lib/python3.10/site-packages/timm/models/layers/__init__.py:49: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+
+=================================================================
+  🔬 Full-Resolution 앙상블 + TTA
+  3모델 동시 로드 | 원본 해상도 | 32-align padding
+=================================================================
+  ✅ S5_charbonnier_cyclic (w=0.5)
+  ✅ FT_GA_0065_B_baseline_p256_lr2e-04_L1Perc (w=0.3)
+  ✅ FT_GA_0045_S_baseline_p256_lr4e-04_L1Perc (w=0.2)
+  Val: 1000개 | VRAM: 0.06GB
+
+  [Full-Res 앙상블 (no TTA)] 평가 중...
+    [100/1000] avg PSNR: 31.2349dB
+    [200/1000] avg PSNR: 31.2206dB
+    [300/1000] avg PSNR: 31.4536dB
+    [400/1000] avg PSNR: 31.2375dB
+    [500/1000] avg PSNR: 30.7003dB
+    [600/1000] avg PSNR: 30.2249dB
+    [700/1000] avg PSNR: 29.9492dB
+    [800/1000] avg PSNR: 29.6119dB
+    [900/1000] avg PSNR: 29.5187dB
+    [1000/1000] avg PSNR: 29.7501dB
+  ✅ Full-Res 앙상블 (no TTA): PSNR=29.7501dB | SSIM=0.9659 | 125s  (30dB까지 0.2499dB)
+
+  [Full-Res 앙상블 + TTA 4방향] 평가 중...
+    [100/1000] avg PSNR: 31.3024dB
+    [200/1000] avg PSNR: 31.2878dB
+    [300/1000] avg PSNR: 31.5015dB
+    [400/1000] avg PSNR: 31.3094dB
+    [500/1000] avg PSNR: 30.7936dB
+    [600/1000] avg PSNR: 30.3502dB
+    [700/1000] avg PSNR: 30.0886dB
+    [800/1000] avg PSNR: 29.7497dB
+    [900/1000] avg PSNR: 29.6720dB
+    [1000/1000] avg PSNR: 29.8909dB
+  ✅ Full-Res 앙상블 + TTA 4방향: PSNR=29.8909dB | SSIM=0.9671 | 478s  (30dB까지 0.1091dB)
+
+=================================================================
+  🏆 Best: fullres_tta → 29.8909dB
+  기존 (256crop+TTA): 29.9963dB | 차이: -0.1054dB
+=================================================================
+  로그 저장: /home/user/computer_vision/ensemble_fullres_log.json

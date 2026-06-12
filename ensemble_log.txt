@@ -1,0 +1,39 @@
+/home/user/miniconda3/envs/jepa/lib/python3.10/site-packages/requests/__init__.py:109: RequestsDependencyWarning: urllib3 (1.26.13) or chardet (None)/charset_normalizer (3.4.7) doesn't match a supported version!
+  warnings.warn(
+/home/user/.local/lib/python3.10/site-packages/timm/models/layers/__init__.py:49: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+
+=================================================================
+  🎯 앙상블 + TTA 평가 시작
+  모델: ['S3_best_extend_lr5e6', 'FT_GA_0065_B_baselin', 'FT_GA_0045_S_baselin']
+  가중치: [0.5, 0.3, 0.2]
+=================================================================
+
+  모델 로드 중...
+  ✅ S3_best_extend_lr5e6 (29.7915dB, w=0.5)
+  ✅ FT_GA_0065_B_baseline_p256_lr2e-04_ (29.5275dB, w=0.3)
+  ✅ FT_GA_0045_S_baseline_p256_lr4e-04_ (29.4374dB, w=0.2)
+
+  Val 데이터: /home/user/data/RESIDE/RESIDE-6K/test
+
+  =======================================================
+  🔄 단계1_앙상블 평가 중... (tta=none)
+  ✅ 단계1_앙상블: PSNR=29.8856dB | SSIM=0.9654 | 53s
+
+  =======================================================
+  🔄 단계2_앙상블+TTA_flip 평가 중... (tta=flip)
+  ✅ 단계2_앙상블+TTA_flip: PSNR=29.8943dB | SSIM=0.9657 | 104s
+
+  =======================================================
+  🔄 단계3_앙상블+TTA_8방향 평가 중... (tta=self8)
+  ✅ 단계3_앙상블+TTA_8방향: PSNR=29.9002dB | SSIM=0.9659 | 210s
+
+=================================================================
+  🏁 전체 평가 완료
+  단계1_앙상블: 29.8856dB
+  단계2_앙상블+TTA_flip: 29.8943dB
+  단계3_앙상블+TTA_8방향: 29.9002dB 👑
+
+  🏆 Best: 단계3_앙상블+TTA_8방향 → 29.9002dB
+  30dB까지 0.0998dB 남음
+=================================================================

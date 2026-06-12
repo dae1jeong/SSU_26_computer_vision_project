@@ -1,0 +1,61 @@
+{
+  "grid_results": [
+    {
+      "stage": "최적가중치_앙상블",
+      "weights": [
+        0.5,
+        0.1,
+        0.1,
+        0.1,
+        0.2
+      ],
+      "models": [
+        "S3_best_extend_lr5e6",
+        "FT_GB_0149_B_freq_branch_p256_lr2e-04_L1Perc",
+        "S4_GB0149_L1heavy",
+        "FT_GA_0065_B_baseline_p256_lr2e-04_L1Perc",
+        "FT_GA_0045_S_baseline_p256_lr4e-04_L1Perc"
+      ],
+      "psnr": 29.8754,
+      "ssim": 0.9651,
+      "timestamp": "2026-06-01 11:38:08"
+    },
+    {
+      "stage": "최적가중치_앙상블+TTA8",
+      "weights": [
+        0.5,
+        0.1,
+        0.1,
+        0.1,
+        0.2
+      ],
+      "models": [
+        "S3_best_extend_lr5e6",
+        "FT_GB_0149_B_freq_branch_p256_lr2e-04_L1Perc",
+        "S4_GB0149_L1heavy",
+        "FT_GA_0065_B_baseline_p256_lr2e-04_L1Perc",
+        "FT_GA_0045_S_baseline_p256_lr4e-04_L1Perc"
+      ],
+      "psnr": 29.8925,
+      "ssim": 0.9658,
+      "timestamp": "2026-06-01 11:44:07"
+    }
+  ],
+  "best": {
+    "psnr": 29.8925,
+    "weights": [
+      0.5,
+      0.1,
+      0.1,
+      0.1,
+      0.2
+    ],
+    "models": [
+      "S3_best_extend_lr5e6",
+      "FT_GB_0149_B_freq_branch_p256_lr2e-04_L1Perc",
+      "S4_GB0149_L1heavy",
+      "FT_GA_0065_B_baseline_p256_lr2e-04_L1Perc",
+      "FT_GA_0045_S_baseline_p256_lr4e-04_L1Perc"
+    ]
+  }
+}

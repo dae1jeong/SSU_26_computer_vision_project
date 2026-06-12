@@ -1,0 +1,20 @@
+{
+  "results": [
+    {
+      "stage": "fullres_no_tta",
+      "psnr": 29.7501,
+      "ssim": 0.9659,
+      "elapsed": 125
+    },
+    {
+      "stage": "fullres_tta",
+      "psnr": 29.8909,
+      "ssim": 0.9671,
+      "elapsed": 478
+    }
+  ],
+  "best": {
+    "psnr": 29.8909,
+    "method": "fullres_tta"
+  }
+}

@@ -1,0 +1,32 @@
+/home/user/miniconda3/envs/jepa/lib/python3.10/site-packages/requests/__init__.py:109: RequestsDependencyWarning: urllib3 (1.26.13) or chardet (None)/charset_normalizer (3.4.7) doesn't match a supported version!
+  warnings.warn(
+/home/user/.local/lib/python3.10/site-packages/timm/models/layers/__init__.py:49: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+
+=================================================================
+  🔥 [S6] S5 기반 추가 Cyclic Fine-tuning
+  기반: S5_charbonnier_cyclic (29.9096dB)
+  lr: 5e-06 | T_0=20 | 3사이클 = 60ep
+  Loss: Charbonnier (eps=0.001)
+=================================================================
+
+  ✅ 체크포인트 로드: /home/user/experiments/S5_charbonnier_cyclic/best.pth
+
+  기준 PSNR: 29.9096dB
+  총 60 epoch 시작
+
+  ep005/cycle1 | loss=0.0185 | lr=4.28e-06 | PSNR=29.7654dB | Best=29.9096dB
+  ep010/cycle1 | loss=0.0184 | lr=2.55e-06 | PSNR=29.7951dB | Best=29.9096dB
+  ep015/cycle1 | loss=0.0184 | lr=8.18e-07 | PSNR=29.8336dB | Best=29.9096dB
+  ep020/cycle1 | loss=0.0184 | lr=5.00e-06 | PSNR=29.8300dB | Best=29.9096dB
+  ep025/cycle2 | loss=0.0185 | lr=4.28e-06 | PSNR=29.7521dB | Best=29.9096dB
+  ep030/cycle2 | loss=0.0184 | lr=2.55e-06 | PSNR=29.8168dB | Best=29.9096dB
+  ep035/cycle2 | loss=0.0183 | lr=8.18e-07 | PSNR=29.8054dB | Best=29.9096dB
+  ep040/cycle2 | loss=0.0182 | lr=5.00e-06 | PSNR=29.8217dB | Best=29.9096dB
+  ep045/cycle3 | loss=0.0185 | lr=4.28e-06 | PSNR=29.8316dB | Best=29.9096dB
+  ep050/cycle3 | loss=0.0183 | lr=2.55e-06 | PSNR=29.8359dB | Best=29.9096dB
+  ep055/cycle3 | loss=0.0182 | lr=8.18e-07 | PSNR=29.7925dB | Best=29.9096dB
+  ep060/cycle3 | loss=0.0181 | lr=5.00e-06 | PSNR=29.7722dB | Best=29.9096dB
+
+  ✅ S6 완료: 29.9096dB → 29.9096dB (best ep0)
+  30dB 까지 0.0904dB 남음

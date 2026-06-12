@@ -1,0 +1,42 @@
+/home/user/miniconda3/envs/jepa/lib/python3.10/site-packages/requests/__init__.py:109: RequestsDependencyWarning: urllib3 (1.26.13) or chardet (None)/charset_normalizer (3.4.7) doesn't match a supported version!
+  warnings.warn(
+/home/user/.local/lib/python3.10/site-packages/timm/models/layers/__init__.py:49: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+
+=================================================================
+  S7: 4모델 앙상블 그리드 서치
+  S5(GA) + GB_0149(GB freq) + GA_0065 + GA_0045
+=================================================================
+  ✅ S5_charbonnier_cyclic
+  ✅ FT_GB_0149_B_freq_branch_p256_lr2e-04_L1Perc
+  ✅ FT_GA_0065_B_baseline_p256_lr2e-04_L1Perc
+  ✅ FT_GA_0045_S_baseline_p256_lr4e-04_L1Perc
+  총 84개 조합 | 200장 샘플 그리드 서치
+
+  [  1/84] 🆕 30.0400dB | w=[0.4, 0.1, 0.15, 0.35]
+  [  2/84] 🆕 30.0477dB | w=[0.4, 0.1, 0.2, 0.3]
+  [  3/84] 🆕 30.0510dB | w=[0.4, 0.1, 0.25, 0.25]
+  [  7/84] 🆕 30.0528dB | w=[0.4, 0.15, 0.18, 0.27]
+  [  8/84] 🆕 30.0550dB | w=[0.4, 0.15, 0.225, 0.225]
+  [ 13/84] 🆕 30.0562dB | w=[0.4, 0.2, 0.2, 0.2]
+  [ 26/84] 🆕 30.0708dB | w=[0.5, 0.1, 0.12, 0.28]
+  [ 27/84] 🆕 30.0754dB | w=[0.5, 0.1, 0.16, 0.24]
+  [ 28/84] 🆕 30.0770dB | w=[0.5, 0.1, 0.2, 0.2]
+  [ 51/84] 🆕 30.0854dB | w=[0.6, 0.1, 0.09, 0.21]
+  [ 52/84] 🆕 30.0876dB | w=[0.6, 0.1, 0.12, 0.18]
+  [ 53/84] 🆕 30.0881dB | w=[0.6, 0.1, 0.15, 0.15]
+
+  그리드 완료: best_w=[0.6, 0.1, 0.15, 0.15] | sample PSNR=30.0881dB
+
+  Top5 조합 전체 val 평가...
+  [1] w=[0.6, 0.1, 0.15, 0.15]  noTTA=29.9837  TTA=29.9990dB  (30dB까지 0.0010)
+  [2] w=[0.6, 0.1, 0.12, 0.18]  noTTA=29.9815  TTA=29.9959dB  (30dB까지 0.0041)
+  [3] w=[0.6, 0.1, 0.18, 0.12]  noTTA=29.9842  TTA=30.0007dB  🎊 30dB!!
+  [4] w=[0.6, 0.1, 0.09, 0.21]  noTTA=29.9777  TTA=29.9912dB  (30dB까지 0.0088)
+  [5] w=[0.6, 0.1, 0.21, 0.09]  noTTA=29.9830  TTA=30.0008dB  🎊 30dB!!
+
+=================================================================
+  🏆 S7 Best: 30.0008dB | w=[0.6, 0.1, 0.21, 0.09]
+  기존 3모델 Best: 29.9963dB | 차이: +0.0045dB
+  🎊🎊 30dB 달성!! 🎊🎊
+=================================================================

@@ -1,0 +1,38 @@
+/home/user/miniconda3/envs/jepa/lib/python3.10/site-packages/requests/__init__.py:109: RequestsDependencyWarning: urllib3 (1.26.13) or chardet (None)/charset_normalizer (3.4.7) doesn't match a supported version!
+  warnings.warn(
+/home/user/.local/lib/python3.10/site-packages/timm/models/layers/__init__.py:49: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+
+=================================================================
+  🔥 [S5] Charbonnier + Cyclic Fine-tuning
+  기반: S3_best_extend_lr5e6 (29.7915dB)
+  lr: 1e-05 | T_0=30 | 3사이클 = 90ep
+  Loss: Charbonnier (eps=0.001)
+=================================================================
+
+  ✅ 체크포인트 로드: /home/user/experiments/S3_best_extend_lr5e6/best.pth
+
+  기준 PSNR: 29.7915dB
+  총 90 epoch 시작
+
+  ep005/cycle1 | loss=0.0191 | lr=9.34e-06 | PSNR=29.6237dB | Best=29.7915dB
+  ep010/cycle1 | loss=0.0189 | lr=7.52e-06 | PSNR=29.4857dB | Best=29.7915dB
+  ep015/cycle1 | loss=0.0188 | lr=5.05e-06 | PSNR=29.6976dB | Best=29.7915dB
+  ep020/cycle1 | loss=0.0186 | lr=2.58e-06 | PSNR=29.8309dB | Best=29.8309dB  🆕 Best!
+  ep025/cycle1 | loss=0.0185 | lr=7.63e-07 | PSNR=29.8081dB | Best=29.8309dB
+  ep030/cycle1 | loss=0.0185 | lr=1.00e-05 | PSNR=29.7921dB | Best=29.8309dB
+  ep035/cycle2 | loss=0.0188 | lr=9.34e-06 | PSNR=29.8277dB | Best=29.8309dB
+  ep040/cycle2 | loss=0.0187 | lr=7.52e-06 | PSNR=29.8379dB | Best=29.8379dB  🆕 Best!
+  ep045/cycle2 | loss=0.0187 | lr=5.05e-06 | PSNR=29.7196dB | Best=29.8379dB
+  ep050/cycle2 | loss=0.0185 | lr=2.58e-06 | PSNR=29.7944dB | Best=29.8379dB
+  ep055/cycle2 | loss=0.0186 | lr=7.63e-07 | PSNR=29.7781dB | Best=29.8379dB
+  ep060/cycle2 | loss=0.0183 | lr=1.00e-05 | PSNR=29.7835dB | Best=29.8379dB
+  ep065/cycle3 | loss=0.0188 | lr=9.34e-06 | PSNR=29.9096dB | Best=29.9096dB  🆕 Best!
+  ep070/cycle3 | loss=0.0187 | lr=7.52e-06 | PSNR=29.8519dB | Best=29.9096dB
+  ep075/cycle3 | loss=0.0186 | lr=5.05e-06 | PSNR=29.6875dB | Best=29.9096dB
+  ep080/cycle3 | loss=0.0184 | lr=2.58e-06 | PSNR=29.8276dB | Best=29.9096dB
+  ep085/cycle3 | loss=0.0183 | lr=7.63e-07 | PSNR=29.8056dB | Best=29.9096dB
+  ep090/cycle3 | loss=0.0184 | lr=1.00e-05 | PSNR=29.7672dB | Best=29.9096dB
+
+  ✅ S5 완료: 29.7915dB → 29.9096dB (best ep65)
+  30dB 까지 0.0904dB 남음

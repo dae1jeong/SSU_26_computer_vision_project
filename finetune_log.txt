@@ -1,0 +1,216 @@
+/home/user/miniconda3/envs/jepa/lib/python3.10/site-packages/requests/__init__.py:109: RequestsDependencyWarning: urllib3 (1.26.13) or chardet (None)/charset_normalizer (3.4.7) doesn't match a supported version!
+  warnings.warn(
+/home/user/.local/lib/python3.10/site-packages/timm/models/layers/__init__.py:49: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+/home/user/computer_vision/scripts/finetune_top3.py:71: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  state = torch.load(ckpt_path, map_location=device)
+
+=================================================================
+  🚀 Top3 Warm Restart 파인튜닝 시작
+  전략: CosineAnnealingWarmRestarts + EMA
+  lr: 5.0e-05 → 1.0e-06
+  Restart 주기: T_0=40, T_mult=2
+  예상 소요: ~3~4일 (3개 × 200 epoch)
+=================================================================
+
+=================================================================
+  🔧 파인튜닝 시작: FT_GB_0149_B_freq_branch_p256_lr2e-04_L1Perc
+  체크포인트: /home/user/experiments/GB_0149_B_freq_branch_p256_lr2e-04_L1Perc/best.pth
+  lr: 5e-05 | epochs: 200
+  T_0: 40 | T_mult: 2 | EMA: True
+=================================================================
+
+  ✅ 체크포인트 로드 완료 (기존 best PSNR: 29.2057dB)
+  Restart 경계 epoch: [40, 120]
+[005/200] Loss=0.0379 | PSNR=29.16dB | lr=4.81e-05 | 190s
+[010/200] Loss=0.0372 | PSNR=29.08dB | lr=4.28e-05 | 190s
+[015/200] Loss=0.0366 | PSNR=29.17dB | lr=3.49e-05 | 190s
+[020/200] Loss=0.0358 | PSNR=29.16dB | lr=2.55e-05 | 190s
+[025/200] Loss=0.0348 | PSNR=29.28dB | lr=1.61e-05 | 190s  ✅ Best!
+[030/200] Loss=0.0344 | PSNR=29.30dB | lr=8.18e-06 | 190s  ✅ Best!
+[035/200] Loss=0.0340 | PSNR=29.29dB | lr=2.86e-06 | 190s
+[040/200] Loss=0.0338 | PSNR=29.33dB | lr=5.00e-05 | 190s  ✅ Best!
+
+  🔄 Warm Restart @ epoch 40
+     이번 주기 best: 29.3271dB | 직전 주기 best: 0.0000dB | 개선: +29.3271dB
+  ✅ 개선 확인 → 다음 주기 계속
+[045/200] Loss=0.0364 | PSNR=29.18dB | lr=4.95e-05 | 190s
+[050/200] Loss=0.0364 | PSNR=29.24dB | lr=4.81e-05 | 190s
+[055/200] Loss=0.0357 | PSNR=29.30dB | lr=4.59e-05 | 190s
+[060/200] Loss=0.0354 | PSNR=29.33dB | lr=4.28e-05 | 190s  ✅ Best!
+[065/200] Loss=0.0349 | PSNR=29.30dB | lr=3.91e-05 | 190s
+[070/200] Loss=0.0346 | PSNR=29.35dB | lr=3.49e-05 | 190s  ✅ Best!
+[075/200] Loss=0.0340 | PSNR=29.44dB | lr=3.03e-05 | 190s  ✅ Best!
+[080/200] Loss=0.0337 | PSNR=29.42dB | lr=2.55e-05 | 190s
+[085/200] Loss=0.0331 | PSNR=29.40dB | lr=2.07e-05 | 190s
+[090/200] Loss=0.0328 | PSNR=29.38dB | lr=1.61e-05 | 190s
+[095/200] Loss=0.0323 | PSNR=29.46dB | lr=1.19e-05 | 190s  ✅ Best!
+[100/200] Loss=0.0322 | PSNR=29.49dB | lr=8.18e-06 | 190s  ✅ Best!
+[105/200] Loss=0.0318 | PSNR=29.47dB | lr=5.13e-06 | 190s
+[110/200] Loss=0.0317 | PSNR=29.49dB | lr=2.86e-06 | 190s  ✅ Best!
+[115/200] Loss=0.0316 | PSNR=29.51dB | lr=1.47e-06 | 190s  ✅ Best!
+[120/200] Loss=0.0314 | PSNR=29.48dB | lr=5.00e-05 | 190s
+
+  🔄 Warm Restart @ epoch 120
+     이번 주기 best: 29.5124dB | 직전 주기 best: 29.3271dB | 개선: +0.1853dB
+  ✅ 개선 확인 → 다음 주기 계속
+[125/200] Loss=0.0344 | PSNR=29.36dB | lr=4.99e-05 | 190s
+[130/200] Loss=0.0344 | PSNR=29.37dB | lr=4.95e-05 | 190s
+[135/200] Loss=0.0340 | PSNR=29.47dB | lr=4.89e-05 | 190s
+[140/200] Loss=0.0339 | PSNR=29.42dB | lr=4.81e-05 | 190s
+[145/200] Loss=0.0336 | PSNR=29.38dB | lr=4.71e-05 | 190s
+[150/200] Loss=0.0335 | PSNR=29.51dB | lr=4.59e-05 | 190s  ✅ Best!
+[155/200] Loss=0.0334 | PSNR=29.58dB | lr=4.44e-05 | 190s  ✅ Best!
+[160/200] Loss=0.0330 | PSNR=29.56dB | lr=4.28e-05 | 190s
+[165/200] Loss=0.0326 | PSNR=29.53dB | lr=4.10e-05 | 190s
+[170/200] Loss=0.0325 | PSNR=29.54dB | lr=3.91e-05 | 190s
+[175/200] Loss=0.0321 | PSNR=29.56dB | lr=3.70e-05 | 190s
+[180/200] Loss=0.0319 | PSNR=29.60dB | lr=3.49e-05 | 190s  ✅ Best!
+[185/200] Loss=0.0317 | PSNR=29.63dB | lr=3.26e-05 | 190s  ✅ Best!
+[190/200] Loss=0.0313 | PSNR=29.54dB | lr=3.03e-05 | 190s
+[195/200] Loss=0.0311 | PSNR=29.63dB | lr=2.79e-05 | 190s  ✅ Best!
+[200/200] Loss=0.0309 | PSNR=29.67dB | lr=2.55e-05 | 190s  ✅ Best!
+  기존 PSNR: 29.2057dB → 파인튜닝 후: 29.6715dB (+0.4657dB)
+
+  🏆 FT_GB_0149_B_freq_branch_p256_lr2e-04_L1Perc 완료 | Best PSNR: 29.6715dB (epoch 200)
+
+  📊 중간 집계: GB_0149_B_freq_branch_p256_lr2e-04_L1Perc → 29.6715dB
+
+
+=================================================================
+  🔧 파인튜닝 시작: FT_GA_0065_B_baseline_p256_lr2e-04_L1Perc
+  체크포인트: /home/user/experiments/GA_0065_B_baseline_p256_lr2e-04_L1Perc/best.pth
+  lr: 5e-05 | epochs: 200
+  T_0: 40 | T_mult: 2 | EMA: True
+=================================================================
+
+  ✅ 체크포인트 로드 완료 (기존 best PSNR: 29.1744dB)
+  Restart 경계 epoch: [40, 120]
+[005/200] Loss=0.0386 | PSNR=29.03dB | lr=4.81e-05 | 190s
+[010/200] Loss=0.0378 | PSNR=29.02dB | lr=4.28e-05 | 190s
+[015/200] Loss=0.0374 | PSNR=29.13dB | lr=3.49e-05 | 190s
+[020/200] Loss=0.0365 | PSNR=29.12dB | lr=2.55e-05 | 190s
+[025/200] Loss=0.0355 | PSNR=29.15dB | lr=1.61e-05 | 190s
+[030/200] Loss=0.0350 | PSNR=29.18dB | lr=8.18e-06 | 190s  ✅ Best!
+[035/200] Loss=0.0346 | PSNR=29.26dB | lr=2.86e-06 | 190s  ✅ Best!
+[040/200] Loss=0.0343 | PSNR=29.25dB | lr=5.00e-05 | 190s
+
+  🔄 Warm Restart @ epoch 40
+     이번 주기 best: 29.2589dB | 직전 주기 best: 0.0000dB | 개선: +29.2589dB
+  ✅ 개선 확인 → 다음 주기 계속
+[045/200] Loss=0.0372 | PSNR=29.08dB | lr=4.95e-05 | 190s
+[050/200] Loss=0.0366 | PSNR=29.04dB | lr=4.81e-05 | 190s
+[055/200] Loss=0.0365 | PSNR=29.13dB | lr=4.59e-05 | 190s
+[060/200] Loss=0.0362 | PSNR=29.17dB | lr=4.28e-05 | 190s
+[065/200] Loss=0.0358 | PSNR=29.27dB | lr=3.91e-05 | 190s  ✅ Best!
+[070/200] Loss=0.0351 | PSNR=29.28dB | lr=3.49e-05 | 190s  ✅ Best!
+[075/200] Loss=0.0347 | PSNR=29.34dB | lr=3.03e-05 | 190s  ✅ Best!
+[080/200] Loss=0.0343 | PSNR=29.25dB | lr=2.55e-05 | 190s
+[085/200] Loss=0.0337 | PSNR=29.24dB | lr=2.07e-05 | 190s
+[090/200] Loss=0.0334 | PSNR=29.34dB | lr=1.61e-05 | 190s  ✅ Best!
+[095/200] Loss=0.0330 | PSNR=29.39dB | lr=1.19e-05 | 190s  ✅ Best!
+[100/200] Loss=0.0327 | PSNR=29.38dB | lr=8.18e-06 | 190s
+[105/200] Loss=0.0325 | PSNR=29.35dB | lr=5.13e-06 | 190s
+[110/200] Loss=0.0322 | PSNR=29.35dB | lr=2.86e-06 | 190s
+[115/200] Loss=0.0323 | PSNR=29.36dB | lr=1.47e-06 | 190s
+[120/200] Loss=0.0320 | PSNR=29.40dB | lr=5.00e-05 | 190s  ✅ Best!
+
+  🔄 Warm Restart @ epoch 120
+     이번 주기 best: 29.4009dB | 직전 주기 best: 29.2589dB | 개선: +0.1420dB
+  ✅ 개선 확인 → 다음 주기 계속
+[125/200] Loss=0.0351 | PSNR=29.24dB | lr=4.99e-05 | 190s
+[130/200] Loss=0.0349 | PSNR=29.27dB | lr=4.95e-05 | 190s
+[135/200] Loss=0.0347 | PSNR=29.30dB | lr=4.89e-05 | 190s
+[140/200] Loss=0.0345 | PSNR=29.34dB | lr=4.81e-05 | 190s
+[145/200] Loss=0.0345 | PSNR=29.26dB | lr=4.71e-05 | 190s
+[150/200] Loss=0.0341 | PSNR=29.34dB | lr=4.59e-05 | 190s
+[155/200] Loss=0.0336 | PSNR=29.31dB | lr=4.44e-05 | 190s
+[160/200] Loss=0.0337 | PSNR=29.49dB | lr=4.28e-05 | 190s  ✅ Best!
+[165/200] Loss=0.0334 | PSNR=29.36dB | lr=4.10e-05 | 190s
+[170/200] Loss=0.0329 | PSNR=29.37dB | lr=3.91e-05 | 190s
+[175/200] Loss=0.0327 | PSNR=29.44dB | lr=3.70e-05 | 190s
+[180/200] Loss=0.0327 | PSNR=29.50dB | lr=3.49e-05 | 190s  ✅ Best!
+[185/200] Loss=0.0323 | PSNR=29.53dB | lr=3.26e-05 | 190s  ✅ Best!
+[190/200] Loss=0.0322 | PSNR=29.49dB | lr=3.03e-05 | 190s
+[195/200] Loss=0.0317 | PSNR=29.47dB | lr=2.79e-05 | 190s
+[200/200] Loss=0.0314 | PSNR=29.49dB | lr=2.55e-05 | 190s
+  기존 PSNR: 29.1744dB → 파인튜닝 후: 29.5275dB (+0.3531dB)
+
+  🏆 FT_GA_0065_B_baseline_p256_lr2e-04_L1Perc 완료 | Best PSNR: 29.5275dB (epoch 185)
+
+  📊 중간 집계: GA_0065_B_baseline_p256_lr2e-04_L1Perc → 29.5275dB
+
+
+=================================================================
+  🔧 파인튜닝 시작: FT_GA_0045_S_baseline_p256_lr4e-04_L1Perc
+  체크포인트: /home/user/experiments/GA_0045_S_baseline_p256_lr4e-04_L1Perc/best.pth
+  lr: 5e-05 | epochs: 200
+  T_0: 40 | T_mult: 2 | EMA: True
+=================================================================
+
+  ✅ 체크포인트 로드 완료 (기존 best PSNR: 29.1305dB)
+  Restart 경계 epoch: [40, 120]
+[005/200] Loss=0.0375 | PSNR=29.02dB | lr=4.81e-05 | 144s
+[010/200] Loss=0.0373 | PSNR=29.00dB | lr=4.28e-05 | 144s
+[015/200] Loss=0.0369 | PSNR=29.11dB | lr=3.49e-05 | 144s
+[020/200] Loss=0.0363 | PSNR=29.15dB | lr=2.55e-05 | 144s  ✅ Best!
+[025/200] Loss=0.0359 | PSNR=29.15dB | lr=1.61e-05 | 144s
+[030/200] Loss=0.0356 | PSNR=29.13dB | lr=8.18e-06 | 144s
+[035/200] Loss=0.0355 | PSNR=29.18dB | lr=2.86e-06 | 144s  ✅ Best!
+[040/200] Loss=0.0352 | PSNR=29.19dB | lr=5.00e-05 | 144s  ✅ Best!
+
+  🔄 Warm Restart @ epoch 40
+     이번 주기 best: 29.1895dB | 직전 주기 best: 0.0000dB | 개선: +29.1895dB
+  ✅ 개선 확인 → 다음 주기 계속
+[045/200] Loss=0.0365 | PSNR=29.12dB | lr=4.95e-05 | 144s
+[050/200] Loss=0.0364 | PSNR=29.21dB | lr=4.81e-05 | 144s  ✅ Best!
+[055/200] Loss=0.0364 | PSNR=29.19dB | lr=4.59e-05 | 144s
+[060/200] Loss=0.0360 | PSNR=29.23dB | lr=4.28e-05 | 144s  ✅ Best!
+[065/200] Loss=0.0357 | PSNR=29.22dB | lr=3.91e-05 | 144s
+[070/200] Loss=0.0355 | PSNR=29.20dB | lr=3.49e-05 | 144s
+[075/200] Loss=0.0351 | PSNR=29.25dB | lr=3.03e-05 | 144s  ✅ Best!
+[080/200] Loss=0.0350 | PSNR=29.22dB | lr=2.55e-05 | 144s
+[085/200] Loss=0.0345 | PSNR=29.26dB | lr=2.07e-05 | 144s  ✅ Best!
+[090/200] Loss=0.0344 | PSNR=29.28dB | lr=1.61e-05 | 144s  ✅ Best!
+[095/200] Loss=0.0342 | PSNR=29.29dB | lr=1.19e-05 | 144s  ✅ Best!
+[100/200] Loss=0.0338 | PSNR=29.29dB | lr=8.18e-06 | 144s
+[105/200] Loss=0.0339 | PSNR=29.24dB | lr=5.13e-06 | 144s
+[110/200] Loss=0.0334 | PSNR=29.28dB | lr=2.86e-06 | 144s
+[115/200] Loss=0.0335 | PSNR=29.29dB | lr=1.47e-06 | 144s  ✅ Best!
+[120/200] Loss=0.0333 | PSNR=29.30dB | lr=5.00e-05 | 144s  ✅ Best!
+
+  🔄 Warm Restart @ epoch 120
+     이번 주기 best: 29.2966dB | 직전 주기 best: 29.1895dB | 개선: +0.1071dB
+  ✅ 개선 확인 → 다음 주기 계속
+[125/200] Loss=0.0353 | PSNR=29.25dB | lr=4.99e-05 | 144s
+[130/200] Loss=0.0351 | PSNR=29.29dB | lr=4.95e-05 | 144s
+[135/200] Loss=0.0350 | PSNR=29.33dB | lr=4.89e-05 | 144s  ✅ Best!
+[140/200] Loss=0.0351 | PSNR=29.34dB | lr=4.81e-05 | 144s  ✅ Best!
+[145/200] Loss=0.0349 | PSNR=29.33dB | lr=4.71e-05 | 144s
+[150/200] Loss=0.0344 | PSNR=29.33dB | lr=4.59e-05 | 144s
+[155/200] Loss=0.0343 | PSNR=29.39dB | lr=4.44e-05 | 144s  ✅ Best!
+[160/200] Loss=0.0342 | PSNR=29.36dB | lr=4.28e-05 | 144s
+[165/200] Loss=0.0342 | PSNR=29.39dB | lr=4.10e-05 | 144s
+[170/200] Loss=0.0338 | PSNR=29.37dB | lr=3.91e-05 | 144s
+[175/200] Loss=0.0338 | PSNR=29.42dB | lr=3.70e-05 | 144s  ✅ Best!
+[180/200] Loss=0.0337 | PSNR=29.37dB | lr=3.49e-05 | 144s
+[185/200] Loss=0.0335 | PSNR=29.39dB | lr=3.26e-05 | 144s
+[190/200] Loss=0.0332 | PSNR=29.41dB | lr=3.03e-05 | 144s
+[195/200] Loss=0.0330 | PSNR=29.44dB | lr=2.79e-05 | 144s  ✅ Best!
+[200/200] Loss=0.0328 | PSNR=29.43dB | lr=2.55e-05 | 144s
+  기존 PSNR: 29.1305dB → 파인튜닝 후: 29.4374dB (+0.3069dB)
+
+  🏆 FT_GA_0045_S_baseline_p256_lr4e-04_L1Perc 완료 | Best PSNR: 29.4374dB (epoch 195)
+
+  📊 중간 집계: GA_0045_S_baseline_p256_lr4e-04_L1Perc → 29.4374dB
+
+
+=================================================================
+  🎉 Top3 파인튜닝 전체 완료!
+=================================================================
+  FT_GB_0149_B_freq_branch_p256_lr2e-04_L1Perc: 29.6715dB 👑
+  FT_GA_0065_B_baseline_p256_lr2e-04_L1Perc: 29.5275dB
+  FT_GA_0045_S_baseline_p256_lr4e-04_L1Perc: 29.4374dB
+
+  최종 Best: FT_GB_0149_B_freq_branch_p256_lr2e-04_L1Perc → 29.6715dB
+  30dB까지 0.3285dB 남음 → 앙상블 시도 권장

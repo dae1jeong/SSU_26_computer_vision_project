@@ -1,0 +1,100 @@
+/home/user/miniconda3/envs/jepa/lib/python3.10/site-packages/requests/__init__.py:109: RequestsDependencyWarning: urllib3 (1.26.13) or chardet (None)/charset_normalizer (3.4.7) doesn't match a supported version!
+  warnings.warn(
+/home/user/.local/lib/python3.10/site-packages/timm/models/layers/__init__.py:49: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+
+=================================================================
+  🎯 30dB 달성 시나리오 순차 실행
+  현재 Global Best: 29.7567dB (S1_GB0149_extend_lr1e5)
+  실행할 시나리오: ['S3', 'S4']
+=================================================================
+
+  ⏭️  S1 이미 완료, 스킵
+
+  ⏭️  S2 이미 완료, 스킵
+
+  S3 base_psnr → S1 결과 29.7567dB로 업데이트
+
+=================================================================
+  🔧 [S3] S3_best_extend_lr5e6
+  기반: S1_GB0149_extend_lr1e5 (29.7567dB)
+  lr: 5.0e-06→1.0e-08 | patch: 256 | epochs: 80
+  전략: S1 이후 극소 lr(5e-6) 80 epoch 마무리 정밀 조정
+=================================================================
+
+  ✅ 로드 완료: /home/user/experiments/S1_GB0149_extend_lr1e5/best.pth
+  Restart 경계: [25, 75]
+
+[005/80] Loss=0.0289 | PSNR=29.72dB | lr=4.52e-06 | 190s
+[010/80] Loss=0.0289 | PSNR=29.75dB | lr=3.28e-06 | 190s
+[015/80] Loss=0.0287 | PSNR=29.76dB | lr=1.73e-06 | 190s  ✅ Best!
+[020/80] Loss=0.0287 | PSNR=29.76dB | lr=4.87e-07 | 190s
+[025/80] Loss=0.0288 | PSNR=29.75dB | lr=5.00e-06 | 190s
+
+  🔄 Restart @ ep25 | 이번:29.7601 직전:0.0000 개선:+29.7601dB
+[030/80] Loss=0.0290 | PSNR=29.79dB | lr=4.88e-06 | 190s  ✅ Best!
+[035/80] Loss=0.0288 | PSNR=29.76dB | lr=4.52e-06 | 190s
+[040/80] Loss=0.0288 | PSNR=29.75dB | lr=3.97e-06 | 190s
+[045/80] Loss=0.0287 | PSNR=29.72dB | lr=3.28e-06 | 190s
+[050/80] Loss=0.0287 | PSNR=29.74dB | lr=2.51e-06 | 190s
+[055/80] Loss=0.0286 | PSNR=29.74dB | lr=1.73e-06 | 190s
+[060/80] Loss=0.0286 | PSNR=29.76dB | lr=1.04e-06 | 190s
+[065/80] Loss=0.0286 | PSNR=29.73dB | lr=4.87e-07 | 190s
+[070/80] Loss=0.0286 | PSNR=29.76dB | lr=1.32e-07 | 190s
+[075/80] Loss=0.0286 | PSNR=29.76dB | lr=5.00e-06 | 190s
+
+  🔄 Restart @ ep75 | 이번:29.7915 직전:29.7601 개선:+0.0315dB
+[080/80] Loss=0.0289 | PSNR=29.76dB | lr=4.97e-06 | 190s
+
+  🏁 완료: 29.7567 → 29.7915dB (+0.0348dB)
+
+
+  📊 [S3] S3_best_extend_lr5e6
+     29.7567dB → 29.7915dB (+0.0348dB)
+  🏆 현재 Global Best: 29.7915dB
+
+
+=================================================================
+  🔧 [S4] S4_GB0149_L1heavy
+  기반: FT_GB_0149_B_freq_branch_p256_lr2e-04_L1Perc (29.6715dB)
+  lr: 1.0e-05→1.0e-07 | patch: 256 | epochs: 80
+  전략: Perceptual 비중 0.1→0.02, L1 집중으로 PSNR 직접 최적화
+=================================================================
+
+  ✅ 로드 완료: /home/user/experiments/FT_GB_0149_B_freq_branch_p256_lr2e-04_L1Perc/best.pth
+  Restart 경계: [25, 75]
+
+[005/80] Loss=0.0217 | PSNR=29.67dB | lr=9.05e-06 | 190s
+[010/80] Loss=0.0215 | PSNR=29.70dB | lr=6.58e-06 | 190s  ✅ Best!
+[015/80] Loss=0.0215 | PSNR=29.72dB | lr=3.52e-06 | 190s  ✅ Best!
+[020/80] Loss=0.0213 | PSNR=29.68dB | lr=1.05e-06 | 190s
+[025/80] Loss=0.0212 | PSNR=29.71dB | lr=1.00e-05 | 190s
+
+  🔄 Restart @ ep25 | 이번:29.7244 직전:0.0000 개선:+29.7244dB
+[030/80] Loss=0.0216 | PSNR=29.69dB | lr=9.76e-06 | 190s
+[035/80] Loss=0.0214 | PSNR=29.74dB | lr=9.05e-06 | 190s  ✅ Best!
+[040/80] Loss=0.0214 | PSNR=29.76dB | lr=7.96e-06 | 190s  ✅ Best!
+[045/80] Loss=0.0213 | PSNR=29.75dB | lr=6.58e-06 | 190s
+[050/80] Loss=0.0212 | PSNR=29.69dB | lr=5.05e-06 | 190s
+[055/80] Loss=0.0210 | PSNR=29.72dB | lr=3.52e-06 | 190s
+[060/80] Loss=0.0209 | PSNR=29.71dB | lr=2.14e-06 | 190s
+[065/80] Loss=0.0209 | PSNR=29.72dB | lr=1.05e-06 | 190s
+[070/80] Loss=0.0208 | PSNR=29.74dB | lr=3.42e-07 | 190s
+[075/80] Loss=0.0209 | PSNR=29.74dB | lr=1.00e-05 | 190s
+
+  🔄 Restart @ ep75 | 이번:29.7628 직전:29.7244 개선:+0.0385dB
+[080/80] Loss=0.0213 | PSNR=29.68dB | lr=9.94e-06 | 190s
+
+  🏁 완료: 29.6715 → 29.7628dB (+0.0913dB)
+
+
+  📊 [S4] S4_GB0149_L1heavy
+     29.6715dB → 29.7628dB (+0.0913dB)
+  🏆 현재 Global Best: 29.7915dB
+
+
+=================================================================
+  ✅ 전체 파인튜닝 시나리오 완료
+  최종 Global Best: 29.7915dB (S3_best_extend_lr5e6)
+  → 다음 단계: 앙상블 / 3DGS preprocessing
+=================================================================

@@ -1,0 +1,32 @@
+{
+  "results": [
+    {
+      "stage": "단계1_앙상블",
+      "tta_mode": "none",
+      "psnr": 29.8856,
+      "ssim": 0.9654,
+      "elapsed_sec": 53,
+      "timestamp": "2026-06-01 11:16:11"
+    },
+    {
+      "stage": "단계2_앙상블+TTA_flip",
+      "tta_mode": "flip",
+      "psnr": 29.8943,
+      "ssim": 0.9657,
+      "elapsed_sec": 104,
+      "timestamp": "2026-06-01 11:17:56"
+    },
+    {
+      "stage": "단계3_앙상블+TTA_8방향",
+      "tta_mode": "self8",
+      "psnr": 29.9002,
+      "ssim": 0.9659,
+      "elapsed_sec": 210,
+      "timestamp": "2026-06-01 11:21:26"
+    }
+  ],
+  "best": {
+    "psnr": 29.9002,
+    "method": "단계3_앙상블+TTA_8방향"
+  }
+}

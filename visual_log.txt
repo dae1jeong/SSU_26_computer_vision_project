@@ -1,0 +1,27 @@
+/home/user/miniconda3/envs/jepa/lib/python3.10/site-packages/requests/__init__.py:109: RequestsDependencyWarning: urllib3 (1.26.13) or chardet (None)/charset_normalizer (3.4.7) doesn't match a supported version!
+  warnings.warn(
+/home/user/.local/lib/python3.10/site-packages/timm/models/layers/__init__.py:49: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+
+============================================================
+  PPT용 시각 비교 이미지 생성
+  S7 앙상블 + TTA + 후처리
+============================================================
+  모델 4개 로드 완료
+  [1] 0258_0.8_0.2.jpg → PSNR=30.90dB | 저장: comparison_01_*.png
+  [2] 0287_0.8_0.2.jpg → PSNR=33.94dB | 저장: comparison_02_*.png
+  [3] 0239_0.8_0.2.jpg → PSNR=27.84dB | 저장: comparison_03_*.png
+  [4] 0253_0.8_0.2.jpg → PSNR=27.06dB | 저장: comparison_04_*.png
+  [5] 1781_0.8_0.2.jpg → PSNR=28.54dB | 저장: comparison_05_*.png
+  [6] 0179_0.8_0.2.jpg → PSNR=30.60dB | 저장: comparison_06_*.png
+
+============================================================
+  완료! 6개 이미지 생성
+  저장 위치: /home/user/computer_vision/visual_comparison
+  0258_0.8_0.2.jpg: 30.90dB
+  0287_0.8_0.2.jpg: 33.94dB
+  0239_0.8_0.2.jpg: 27.84dB
+  0253_0.8_0.2.jpg: 27.06dB
+  1781_0.8_0.2.jpg: 28.54dB
+  0179_0.8_0.2.jpg: 30.60dB
+============================================================

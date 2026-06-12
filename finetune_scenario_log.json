@@ -1,0 +1,109 @@
+{
+  "scenarios": [
+    {
+      "scenario_id": "S1",
+      "name": "S1_GB0149_extend_lr1e5",
+      "base_psnr": 29.6715,
+      "result_psnr": 29.7567,
+      "improvement": 0.0852,
+      "epochs_run": 100,
+      "timestamp": "2026-05-30 22:43:17",
+      "status": "done",
+      "notes": "GB_0149 연장: lr 1e-5로 낮춰 100 epoch 추가, ep200 미수렴 이어서",
+      "reached_30db": false
+    },
+    {
+      "scenario_id": "S2",
+      "name": "S2_GB0149_patch320",
+      "base_psnr": 29.6715,
+      "result_psnr": 29.6715,
+      "improvement": 0.0,
+      "epochs_run": 0,
+      "status": "skipped",
+      "notes": "patch 320 → DehazeFormer 내부 conv 레이어 크기 불일치 에러. patch 256이 모델 설계 기준.",
+      "reached_30db": false
+    },
+    {
+      "scenario_id": "S3",
+      "name": "S3_best_extend_lr5e6",
+      "base_psnr": 29.7567,
+      "result_psnr": 29.7915,
+      "improvement": 0.0348,
+      "epochs_run": 80,
+      "timestamp": "2026-06-01 03:24:20",
+      "status": "done",
+      "notes": "S1 이후 극소 lr(5e-6) 80 epoch 마무리 정밀 조정",
+      "reached_30db": false
+    },
+    {
+      "scenario_id": "S4",
+      "name": "S4_GB0149_L1heavy",
+      "base_psnr": 29.6715,
+      "result_psnr": 29.7628,
+      "improvement": 0.0913,
+      "epochs_run": 80,
+      "timestamp": "2026-06-01 07:43:50",
+      "status": "done",
+      "notes": "Perceptual 비중 0.1→0.02, L1 집중으로 PSNR 직접 최적화",
+      "reached_30db": false
+    },
+    {
+      "scenario_id": "S5",
+      "name": "S5_charbonnier_cyclic",
+      "base_psnr": 29.7915,
+      "result_psnr": 29.9096,
+      "improvement": 0.1181,
+      "epochs_run": 90,
+      "status": "done",
+      "notes": "Charbonnier Loss + Cyclic lr 1e-05→1e-07, T_0=30, 3사이클",
+      "reached_30db": false,
+      "timestamp": "2026-06-01 17:47:49"
+    },
+    {
+      "scenario_id": "S6",
+      "name": "S6_s5_cyclic_extra",
+      "base_psnr": 29.9096,
+      "result_psnr": 29.9096,
+      "improvement": 0.0,
+      "epochs_run": 60,
+      "status": "done",
+      "notes": "S5 기반 Charbonnier Cyclic lr=5e-06, T_0=20, 3사이클",
+      "reached_30db": false,
+      "timestamp": "2026-06-03 02:51:24"
+    },
+    {
+      "scenario_id": "S6",
+      "name": "S6_s5_cyclic_extra",
+      "base_psnr": 29.9096,
+      "result_psnr": 29.9096,
+      "improvement": 0.0,
+      "epochs_run": 60,
+      "status": "done",
+      "notes": "S5 기반 Charbonnier Cyclic lr=5e-06, T_0=20, 3사이클",
+      "reached_30db": false,
+      "timestamp": "2026-06-03 05:56:19"
+    },
+    {
+      "scenario_id": "S6",
+      "name": "S6_s5_cyclic_extra",
+      "base_psnr": 29.9096,
+      "result_psnr": 29.9096,
+      "improvement": 0.0,
+      "epochs_run": 60,
+      "status": "done",
+      "notes": "S5 기반 Charbonnier Cyclic lr=5e-06, T_0=20, 3사이클",
+      "reached_30db": false,
+      "timestamp": "2026-06-03 09:01:16"
+    }
+  ],
+  "global_best": {
+    "psnr": 29.9096,
+    "exp": "S5_charbonnier_cyclic",
+    "updated": "2026-06-01 17:47:49"
+  },
+  "S6": {
+    "base_psnr": 29.909639382362364,
+    "best_psnr": 29.93045329093933,
+    "best_ep": 10
+  }
+}

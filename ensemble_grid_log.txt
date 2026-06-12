@@ -1,0 +1,41 @@
+/home/user/miniconda3/envs/jepa/lib/python3.10/site-packages/requests/__init__.py:109: RequestsDependencyWarning: urllib3 (1.26.13) or chardet (None)/charset_normalizer (3.4.7) doesn't match a supported version!
+  warnings.warn(
+/home/user/.local/lib/python3.10/site-packages/timm/models/layers/__init__.py:49: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+
+=================================================================
+  🔍 앙상블 가중치 그리드 서치 + 모델 5개 확장
+=================================================================
+
+  모델 로드 중...
+  ✅ S3_best_extend_lr5e6 (29.7915dB)
+  ✅ FT_GB_0149_B_freq_branch_p256_lr2e-04_L1 (29.6715dB)
+  ✅ S4_GB0149_L1heavy (29.7628dB)
+  ✅ FT_GA_0065_B_baseline_p256_lr2e-04_L1Per (29.5275dB)
+  ✅ FT_GA_0045_S_baseline_p256_lr4e-04_L1Per (29.4374dB)
+
+  [단계1] 가중치 그리드 서치 (200장 빠른 평가)
+  가중치 후보: 0.1 단위 조합 (합=1.0)
+  총 43개 조합 탐색
+  🆕 Best! 가중치=[0.3, 0.1, 0.1, 0.2, 0.3] → PSNR=29.7056dB (1/43)
+  🆕 Best! 가중치=[0.3, 0.1, 0.2, 0.1, 0.3] → PSNR=30.3410dB (2/43)
+  🆕 Best! 가중치=[0.4, 0.3, 0.2, 0.1, -0.0] → PSNR=30.3706dB (30/43)
+  🆕 Best! 가중치=[0.5, 0.1, 0.1, 0.1, 0.2] → PSNR=30.6315dB (31/43)
+
+  그리드 서치 완료 (908s)
+  최적 가중치: [0.5, 0.1, 0.1, 0.1, 0.2]
+  200장 기준 PSNR: 30.6315dB
+
+  [단계2] 최적 가중치로 전체 1000장 평가 (TTA 없음)
+  결과: PSNR=29.8754dB | SSIM=0.9651
+
+  [단계3] 최적 가중치 + 8방향 TTA 전체 평가
+  결과: PSNR=29.8925dB | SSIM=0.9658
+
+=================================================================
+  🏁 최종 결과
+  기존 Best (고정 가중치 + TTA8): 29.9027dB
+  최적 가중치 앙상블:             29.8754dB
+  최적 가중치 앙상블 + TTA8:      29.8925dB  ← 최종
+  30dB까지 0.1075dB 남음
+=================================================================

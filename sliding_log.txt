@@ -1,0 +1,32 @@
+/home/user/miniconda3/envs/jepa/lib/python3.10/site-packages/requests/__init__.py:109: RequestsDependencyWarning: urllib3 (1.26.13) or chardet (None)/charset_normalizer (3.4.7) doesn't match a supported version!
+  warnings.warn(
+/home/user/.local/lib/python3.10/site-packages/timm/models/layers/__init__.py:49: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+
+=================================================================
+  🪟 Sliding Window 앙상블 추론
+  patch=256, stride=128 (50% overlap)
+=================================================================
+  ✅ S5 체크포인트 발견 — S5도 평가
+
+  [S3] 모델 로드: S3_best_extend_lr5e6
+  S3 슬라이딩 윈도우 평가 중...
+  S3 슬라이딩: PSNR=29.6257dB | SSIM=0.9634 | 30s
+  S3 슬라이딩 + TTA 평가 중...
+  S3 슬라이딩+TTA: PSNR=29.6587dB | SSIM=0.9644 | 116s
+
+  [S5] 모델 로드: S5_charbonnier_cyclic
+  S5 슬라이딩 윈도우 평가 중...
+  S5 슬라이딩: PSNR=29.7693dB | SSIM=0.9630 | 29s
+  S5 슬라이딩 + TTA 평가 중...
+  S5 슬라이딩+TTA: PSNR=29.8005dB | SSIM=0.9641 | 116s
+
+=================================================================
+  🏁 Sliding Window 평가 완료
+  S3_sliding: 29.6257dB
+  S3_sliding_tta: 29.6587dB
+  S5_sliding: 29.7693dB
+  S5_sliding_tta: 29.8005dB 👑
+
+  🏆 Best: S5_sliding_tta → 29.8005dB
+=================================================================
